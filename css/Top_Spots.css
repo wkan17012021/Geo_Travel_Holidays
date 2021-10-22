@@ -1,6 +1,6 @@
 * {
   font-family: "Catamaran", Arial, sans-serif;
-  text-decoration-line: none;
+  /*text-decoration-line: none; */
   box-sizing: border-box;
   /*border: 1px solid black; */
 }
@@ -10,6 +10,10 @@ body {
   margin-right: 4em;
 }
 
+a:visited {
+  text-decoration: underline;
+  color: #af952e;
+}
 /* heading style */
 
 #header_container {
@@ -173,6 +177,7 @@ section {
 /*________________________*/
 
 .container_horseshoe {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -268,16 +273,19 @@ section {
   width: 100%;
   text-align: center;
 }
-
-.golden_gate_text {
-  text-align: center;
-  color: black;
+.golden_gate_content {
+  display: flex;
+  justify-content: center;
 }
 
 .golden_gate_content img {
   box-shadow: -2px -2px 10px lightslategray;
+  width: 60%;
 }
 
+.golden_gate_text {
+  text-align: center;
+}
 /*________________________*/
 
 .container_zhangye {
@@ -413,8 +421,6 @@ footer {
 
 .company_title_footer {
   display: inline-block;
-  padding-top: 1em;
-  padding-left: 1em;
 }
 
 .author {
@@ -497,44 +503,59 @@ footer {
   }
   .container_batur {
     border-right: none;
+    width: 100vw;
+  }
+  .bali_title {
+    width: 100vw;
+    text-align: center;
   }
   .container_batur img:hover {
     border-radius: 50%;
     transform: scale(0.8);
   }
+  .bali_content {
+    width: 75vw;
+  }
   .batur_text {
-    margin-left: 1em;
-    margin-right: 1em;
     text-align: justify;
   }
+  .container_horseshoe {
+    width: 100vw;
+  }
+  .horseshoe_title {
+    width: 100vw;
+    text-align: center;
+  }
   .horseshoe_text {
-    margin-left: 1em;
-    margin-right: 1em;
+    width: 75vw;
     text-align: justify;
   }
   .antelope_content {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
   .antelope_text {
-    width: 50%;
+    width: 75vw;
   }
   .antelope_text p {
     text-align: justify;
-    padding-left: 0;
-    padding-right: 0;
+  }
+  .golden_gate_content img {
+    width: 75vw;
   }
   .golden_gate_text {
-    width: 75%;
+    width: 75vw;
   }
   .Golden_Gate_Text {
     text-align: justify;
   }
+  #pingshan_pano {
+    width: 75vw;
+  }
   .zhangye_text {
-    width: 75%;
+    width: 75vw;
     text-align: justify;
   }
   .container_south_france {
@@ -543,27 +564,29 @@ footer {
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 75%;
+  }
+  .france_title {
+    width: 100vw;
   }
   .france_content {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 75vw;
     height: auto; /*expand the parent container as the images increase the height */
   }
   .france_content img {
     padding: 1em;
     display: block;
-    width: 75%;
+    width: 50vw;
     height: auto; /* maintain aspect ratio*/
     margin: auto;
   }
   .france_text {
     text-align: justify;
-    width: 55%;
+    width: 75vw;
   }
   .container_iceland {
-    max-width: 75%;
+    width: 100vw;
   }
   .iceland_content {
     display: flex;
@@ -572,11 +595,164 @@ footer {
     align-content: center;
     justify-content: center;
   }
+  .photo_iceland {
+    width: 50vw;
+    height: auto;
+  }
   .iceland_text {
-    width: 65%;
+    width: 50vw;
   }
   .iceland_text p {
     text-align: justify;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+  footer div textarea {
+    width: 100%;
+  }
+  .author,
+  .footer_form {
+    border-right: none;
+  }
+  footer > div {
+    text-align: center;
+  }
+  .submit_button {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .company_title_footer {
+    padding: 0;
+  }
+  .contact_details ul {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  h1,
+  h2,
+  nav {
+    font-size: 2vw;
+  }
+  .container_batur {
+    width: 75%;
+  }
+  .bali_content {
+    width: 100%;
+  }
+  .bali_content img,
+  .cover_photo_horseshoe {
+    width: 75%;
+    height: auto;
+  }
+  .container_horseshoe {
+    width: 75%;
+  }
+  .hover-img {
+    width: 75%;
+    height: auto;
+    margin-top: -505px;
+  }
+  .horseshoe_text {
+    padding-top: 10vh;
+    width: 75%;
+  }
+  .antelope_content {
+    display: flex;
+    flex-direction: column;
+  }
+  .antelope_text {
+    width: 75%;
+  }
+  .antelope_video {
+    width: 70vw;
+    height: 30vh;
+  }
+  .golden_gate_content img {
+    width: 75%;
+  }
+  #pingshan_pano {
+    width: 75%;
+  }
+  .iceland_text p {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .showcase {
+    width: 75vw;
+    margin: auto;
+  }
+  .cover_photo_horseshoe {
+    opacity: 1;
+    z-index: 1;
+  }
+  .hover-img {
+    display: none;
+  }
+  .container_horseshoe:hover img {
+    opacity: 1;
+    transition: none;
+  }
+  .horseshoe_text {
+    padding-top: 0;
+  }
+  p {
+    font-size: 12px;
+  }
+  .antelope_video {
+    width: 50vw;
+    height: 25vh;
+  }
+}
+
+@media (max-width: 400px) {
+  section {
+    line-height: 1.2em;
+  }
+  .Top_Spots {
+    border-bottom: 5px solid green;
+  }
+  .horseshoe_content {
+    width: 75vw;
+  }
+  .antelope_text p {
+    padding: 0;
+  }
+  .antelope_video {
+    width: 70vw;
+    height: 25vh;
+  }
+  .iceland_content img {
+    width: 75vw;
+  }
+  .iceland_text {
+    width: 75vw;
+  }
+  .footer_form div input,
+  textarea {
+    width: 25vw;
+  }
+  .fossil_logo_small img {
+    width: 25vw;
+    height: auto;
+  }
+  .contact_details div ul li {
+    font-size: 2.5vw;
   }
 }
 
@@ -615,5 +791,4 @@ position: relative;
     to {
         left: 100%;
     }
-}
-*/
+}*/
