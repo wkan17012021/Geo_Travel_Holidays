@@ -226,6 +226,11 @@ section {
   padding-right: 1em;
 }
 
+.antelope_title {
+  width: 100%;
+  text-align: center;
+}
+
 .antelope_content {
   position: relative;
   display: flex;
@@ -259,6 +264,11 @@ section {
   width: 100%;
 }
 
+.golden_gate_title {
+width: 100%;
+text-align: center;
+}
+
 .golden_gate_text {
   text-align: center;
   color: black;
@@ -276,6 +286,11 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.zhangye_title {
+  width: 100%;
+  text-align: center;
 }
 
 .zhangye_content {
