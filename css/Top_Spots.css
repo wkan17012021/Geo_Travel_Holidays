@@ -1,0 +1,604 @@
+* {
+  font-family: "Catamaran", Arial, sans-serif;
+  text-decoration-line: none;
+  box-sizing: border-box;
+  /*border: 1px solid black; */
+}
+
+body {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+/* heading style */
+
+#header_container {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  right: 0;
+  background-color: #f3eed9;
+  z-index: 2;
+}
+
+.company_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5em;
+}
+
+.fossil_logo img {
+  height: 10vh;
+  width: auto;
+  border-radius: 50%;
+}
+
+.fossil_logo img:hover {
+  transform: scale(1.1);
+}
+
+.company_title {
+  float: right;
+  padding-left: 1em;
+}
+
+.main_nav {
+  margin-right: 5em;
+}
+
+.nav {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+
+.nav li a {
+  font-size: 1em;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+  color: black;
+}
+
+.Top_Spots {
+  border-bottom: 10px solid green;
+}
+
+.nav li a:hover {
+  display: inline-block;
+  font-style: italic;
+  transform: scale(1.2);
+  text-decoration-line: underline;
+}
+
+/* showcase banner styles */
+
+.showcase_container {
+  padding-top: 10em;
+}
+
+.Danxia_title {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  border: hidden;
+  opacity: 0;
+}
+
+.danxia_image {
+  box-shadow: -2px -2px 2px lightslategray;
+}
+
+.showcase:hover .Danxia_title {
+  opacity: 1;
+  animation: magic_text 2s ease-in-out;
+}
+
+@keyframes magic_text {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 25%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* main styles */
+
+section {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  line-height: 2em;
+}
+
+/*________________________*/
+
+.container_batur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-right: 2px ridge rgb(109, 109, 109);
+}
+
+.bali_title,
+.horseshoe_title,
+.antelope_title,
+.golden_gate_title,
+.zhangye_title,
+.france_title,
+.iceland_title {
+  background-color: #f3eed9;
+}
+
+.bali_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_batur img:hover {
+  border-radius: 50%;
+  transform: scale(1.1);
+  transition: ease-in-out 2.5s;
+  z-index: 1;
+}
+
+.batur_text {
+  text-align: center;
+  color: black;
+}
+/*________________________*/
+
+.container_horseshoe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.horseshoe_content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-img {
+  margin-top: -600px;
+  opacity: 0;
+}
+
+.container_horseshoe:hover img {
+  opacity: 0;
+  transition: ease-in-out 2s;
+}
+
+.container_horseshoe:hover img.hover-img {
+  opacity: 1;
+  transition: ease-in-out 2s;
+}
+
+.horseshoe_text {
+  text-align: center;
+  color: black;
+}
+
+/*________________________*/
+
+.container_antelope {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.antelope_content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.antelope_video_container {
+  padding: 1em;
+}
+
+.antelope_video_container iframe {
+  border: 5px solid black;
+}
+
+.antelope_text p {
+  text-align: center;
+  color: black;
+  top: 100%;
+  padding: 2rem;
+}
+
+/*________________________*/
+
+.container_golden_gate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.golden_gate_text {
+  text-align: center;
+  color: black;
+}
+
+.golden_gate_content img {
+  box-shadow: -2px -2px 10px lightslategray;
+}
+
+/*________________________*/
+
+.container_zhangye {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.zhangye_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pingshan_pano {
+  width: 50%;
+  box-shadow: -2px -2px 2px lightslategray;
+}
+
+.zhangye_text {
+  text-align: center;
+  color: black;
+}
+
+/*________________________*/
+
+.france_title,
+.france_text {
+  color: black;
+  text-align: center;
+}
+
+.france_content {
+  object-fit: scale-down;
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  height: 25em;
+}
+.france_content img {
+  height: 100%;
+}
+
+.road_tunnel:hover {
+  transform: translateY(-10px);
+  border: 2px solid black;
+}
+
+.lake_view:hover {
+  transform: translateY(-10px);
+  border: 2px solid black;
+}
+
+.viaduct:hover {
+  transform: translateY(-10px);
+  border: 2px solid black;
+}
+
+/*________________________*/
+
+.container_iceland {
+  text-align: center;
+}
+
+.iceland_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.iceland_text p {
+  text-align: center;
+  color: black;
+  padding: 2rem;
+}
+
+/* footer styles */
+
+footer {
+  display: flex;
+  background-color: #f3eed9;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-top: 2%;
+}
+
+.footer_form {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 33.3%;
+  border-right: 2px ridge rgb(109, 109, 109);
+}
+
+.footer_form div input {
+  border-radius: 5px;
+}
+
+.footer_form textarea {
+  display: block;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+
+.footer_form button {
+  background-color: #ff9f1c;
+  border-color: #ff9f1c;
+  border-radius: 20%;
+  min-width: 2em;
+  line-height: 2.5em;
+  margin-top: 1em;
+  display: block;
+}
+
+.fossil_logo_small img {
+  height: 10vh;
+  width: auto;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.company_title_footer {
+  display: inline-block;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 33.3%;
+  border-right: 2px ridge rgb(109, 109, 109);
+}
+
+.contact_details {
+  width: 33.3%;
+  color: rgb(88, 88, 88);
+}
+
+.our_contacts,
+.follow {
+  color: black;
+}
+
+.contact_details ul {
+  list-style: none;
+  width: 100%;
+}
+
+.social_media {
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media (max-width: 1400px) {
+  .showcase_container {
+    padding-top: 17em;
+  }
+  #header_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1em;
+  }
+  .company_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-left: 0;
+  }
+  .fossil_logo img {
+    height: 5vh;
+    width: auto;
+    border-radius: 50%;
+  }
+  .company_title {
+    padding: 0;
+  }
+  .company_title h1 {
+    margin: 0;
+  }
+  .page_title h2 {
+    margin: auto;
+    padding: 0.5em;
+  }
+  .main_nav {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1275px) {
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .container_batur {
+    border-right: none;
+  }
+  .container_batur img:hover {
+    border-radius: 50%;
+    transform: scale(0.8);
+  }
+  .batur_text {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+  }
+  .horseshoe_text {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: justify;
+  }
+  .antelope_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .antelope_text {
+    width: 50%;
+  }
+  .antelope_text p {
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .golden_gate_text {
+    width: 75%;
+  }
+  .Golden_Gate_Text {
+    text-align: justify;
+  }
+  .zhangye_text {
+    width: 75%;
+    text-align: justify;
+  }
+  .container_south_france {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 75%;
+  }
+  .france_content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: auto; /*expand the parent container as the images increase the height */
+  }
+  .france_content img {
+    padding: 1em;
+    display: block;
+    width: 75%;
+    height: auto; /* maintain aspect ratio*/
+    margin: auto;
+  }
+  .france_text {
+    text-align: justify;
+    width: 55%;
+  }
+  .container_iceland {
+    max-width: 75%;
+  }
+  .iceland_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .iceland_text {
+    width: 65%;
+  }
+  .iceland_text p {
+    text-align: justify;
+  }
+}
+
+/* this is draft dirty code for attempt at typewriter animation- see kevin powell youtube
+.zhangye_image {
+    z-index: 0;
+}
+
+.showcase {
+position: relative;
+}
+
+.Danxia_title::before,
+.Danxia_title::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.Danxia_title::before {
+    background: none;
+    animation: typewriter 1s steps(22) infinite;
+}
+
+@keyframes magic_text {
+    to {
+        z-index: 1;
+        
+    }
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+*/

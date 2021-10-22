@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Web Scrape"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DevProjects"
+	}
+}
