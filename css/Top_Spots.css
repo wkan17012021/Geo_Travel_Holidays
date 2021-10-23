@@ -692,6 +692,11 @@ footer {
   }
 }
 
+@media (max-width: 725px) {
+  .hover-img {
+    margin-top: -475px;
+  }
+
 @media (max-width: 700px) {
   .showcase {
     width: 75vw;
@@ -756,6 +761,15 @@ footer {
   }
 }
 
+@media (max-width: 300px) {
+  p {
+    font-size: 0.5em;
+  }
+  .antelope_video {
+    width: 70vw;
+    height: 20vh;
+  }
+}
 /* this is draft dirty code for attempt at typewriter animation- see kevin powell youtube
 .zhangye_image {
     z-index: 0;
