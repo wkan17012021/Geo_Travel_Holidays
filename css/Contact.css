@@ -33,11 +33,12 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 5em;
+  margin-left: 4em;
+  margin-top: 1em;
 }
 
 .fossil_logo img {
-  height: 10vh;
+  height: 8vh;
   width: auto;
   border-radius: 50%;
 }
@@ -51,8 +52,13 @@ a:visited {
   padding-left: 1em;
 }
 
+.page_title {
+  margin-top: 1em;
+}
+
 .main_nav {
-  margin-right: 5em;
+  margin-right: 4em;
+  margin-top: 1em;
 }
 
 .nav {
@@ -83,17 +89,15 @@ a:visited {
 /* showcase banner styles */
 
 #showcase_container {
-  padding: 5em 0 0 0;
-  margin: 5em 0 0 0;
-  width: 100%;
+  margin-top: 10em;
 }
 
 .showcase {
-  background-image: url("/Geo_Travel_Holidays/images/contact_map_photo.jpg");
+  background-image: url("/images/contact_map_photo.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   box-shadow: -5px -5px 10px lightslategray;
-  padding: 20em;
+  padding: 2em 2em 50vh 2em;
   width: 100%;
 }
 
@@ -101,9 +105,9 @@ a:visited {
   background-color: rgba(95, 93, 93, 0.87);
   color: whitesmoke;
   text-align: center;
-  width: 65%;
-  margin: auto;
   border-radius: 5px;
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
 
 /* main styles */
@@ -208,3 +212,55 @@ textarea {
   text-align: center;
 }
 /*media queries */
+
+@media (max-width: 1250px) {
+  #header_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .company_container,
+  .page_title,
+  .page_title h2,
+  .main_nav {
+    margin: 0;
+  }
+  .banner_title {
+    margin-top: 25vh;
+  }
+}
+
+@media (max-width: 950px) {
+  .banner_title {
+    font-size: 1.5em;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+  .showcase {
+    padding-bottom: 25vh;
+    margin-top: 25vh;
+  }
+  .company_title_footer h1 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  #gmap_canvas {
+    width: 50vw;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 600px) {
+  #gmap_canvas {
+    width: 60vw;
+    height: 40vh;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}
