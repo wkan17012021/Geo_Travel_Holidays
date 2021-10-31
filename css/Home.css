@@ -1,0 +1,267 @@
+* {
+  font-family: "Catamaran", Arial, sans-serif;
+  text-decoration-line: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 1px solid red;
+}
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #af952e;
+}
+/* heading style */
+
+#header_container {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #f3eed9;
+  z-index: 2;
+}
+
+.company_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4em;
+  margin-top: 1em;
+}
+
+.fossil_logo img {
+  height: 8vh;
+  width: auto;
+  border-radius: 50%;
+}
+
+.fossil_logo img:hover {
+  transform: scale(1.1);
+}
+
+.company_title {
+  float: right;
+  padding-left: 1em;
+}
+
+.page_title {
+  margin-top: 1em;
+}
+
+.main_nav {
+  margin-right: 4em;
+  margin-top: 1em;
+}
+
+.nav {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+.nav li a {
+  font-size: 1em;
+  padding-right: 0.8em;
+  padding-left: 0.8em;
+  color: black;
+}
+
+.home {
+  border-bottom: 10px solid green;
+}
+
+.nav li a:hover {
+  display: inline-block;
+  font-style: italic;
+  transform: scale(1.2);
+  text-decoration-line: underline;
+}
+
+/* showcase banner styles */
+
+#showcase_container {
+  margin-top: 10em;
+}
+
+.showcase {
+  background-image: url("/images/Home_Page_Showcase_Photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -5px -5px 10px lightslategray;
+  padding: 2em 2em 50vh 2em;
+  width: 100%;
+}
+
+.banner_title {
+  background-color: rgba(95, 93, 93, 0.87);
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+/* main styles */
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin: 2.5rem;
+}
+
+.message h2 {
+  border-top: 1px solid black;
+}
+
+#grid_container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 100%;
+  gap: 15px;
+  grid-template-rows: repeat(15, 8vw);
+  padding: 1em;
+}
+
+#grid_container div > img {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+}
+
+.grid_container_swiss_alps {
+  grid-column: 1 / 5;
+  grid-row: 1 / 5;
+}
+
+.grid_container_usa {
+  grid-column: 5 / 9;
+  grid-row: 1 / 5;
+}
+
+.grid_container_dolomites {
+  grid-column: 1 / 5;
+  grid-row: 5 / 10;
+}
+
+.grid_container_zhangye {
+  grid-column: 5 / 9;
+  grid-row: 5 / 10;
+}
+
+.grid_container_middle_east {
+  grid-column: 1 / 5;
+  grid-row: 10 / 15;
+}
+
+.grid_container_iceland {
+  grid-column: 5 / 9;
+  grid-row: 10 / 15;
+}
+
+/* footer styles*/
+
+.author {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  background-color: #f3eed9;
+}
+
+.fossil_logo_small img {
+  width: 5vw;
+  border-radius: 50%;
+}
+
+.author quote {
+  text-align: center;
+}
+
+.contact_details_main {
+  width: 50%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.contact_details_main ul {
+  list-style: none;
+  text-align: center;
+}
+
+.contact_details_main ul li {
+  padding: 1em;
+}
+
+/*media queries */
+
+/*@media (max-width: 1250px) {
+  #header_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .company_container,
+  .page_title,
+  .page_title h2,
+  .main_nav {
+    margin: 0;
+  }
+  .banner_title {
+    margin-top: 25vh;
+  }
+} */
+
+/*@media (max-width: 950px) {
+  .banner_title {
+    font-size: 1.5em;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+  .showcase {
+    padding-bottom: 25vh;
+    margin-top: 25vh;
+  }
+  .company_title_footer h1 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  #gmap_canvas {
+    width: 50vw;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 600px) {
+  #gmap_canvas {
+    width: 60vw;
+    height: 40vh;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+}*/
