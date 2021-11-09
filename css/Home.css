@@ -4,7 +4,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
 }
 
 /* body {
@@ -118,8 +117,9 @@ a:visited {
 }
 
 .showcase:hover .banner_title {
+  font-size: 4em;
   opacity: 1;
-  animation: text_appear 5s ease-in-out;
+  animation: text_appear 2s ease-in-out;
 }
 
 @keyframes text_appear {
@@ -160,7 +160,7 @@ main {
   grid-template-columns: repeat(8, 1fr);
   width: 100%;
   gap: 15px;
-  grid-template-rows: repeat(15, 8vw);
+  grid-template-rows: repeat(21, 8vw);
   padding: 1em;
 }
 
@@ -188,27 +188,32 @@ main {
 
 .grid_container_dolomites {
   grid-column: 1 / 5;
-  grid-row: 5 / 10;
+  grid-row: 6 / 11;
 }
 
 .grid_container_zhangye {
   grid-column: 5 / 9;
-  grid-row: 5 / 10;
+  grid-row: 6 / 13;
 }
 
 .grid_container_middle_east {
   grid-column: 1 / 5;
-  grid-row: 10 / 15;
+  grid-row: 12 / 22;
 }
 
 .grid_container_iceland {
   grid-column: 5 / 9;
-  grid-row: 10 / 15;
+  grid-row: 14 / 22;
 }
 
+/* aside styles */
+
+aside {
+  margin: 5%;
+}
 /* footer styles*/
 
-.author {
+.author_container {
   padding-top: 2em;
   padding-bottom: 2em;
   width: 100%;
@@ -228,9 +233,17 @@ main {
   text-align: center;
 }
 
+.video_and_contacts_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
 .contact_details_main {
-  width: 50%;
-  float: right;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,7 +261,7 @@ main {
 
 /*media queries */
 
-/*@media (max-width: 1250px) {
+@media (max-width: 1275px) {
   #header_container {
     display: flex;
     flex-direction: column;
@@ -260,42 +273,166 @@ main {
   .main_nav {
     margin: 0;
   }
-  .banner_title {
-    margin-top: 25vh;
+  .company_container {
+    margin-top: 1.5vh;
   }
-} */
+  .fossil_logo img {
+    height: 5vh;
+  }
+  .showcase:hover .banner_title {
+    font-size: 3em;
+  }
+  .Current_Tours {
+    text-align: center;
+  }
+  #grid_container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(30, 8vw);
+  }
+  #grid_container div > img {
+    object-fit: cover;
+    height: 100%;
+  }
+  .grid_container_swiss_alps {
+    grid-column: 1 / 5;
+    grid-row: 1 / 8;
+  }
 
-/*@media (max-width: 950px) {
-  .banner_title {
-    font-size: 1.5em;
-    margin-left: 20vw;
-    margin-right: 20vw;
+  .grid_container_usa {
+    grid-column: 5 / 9;
+    grid-row: 1 / 8;
   }
-  .showcase {
-    padding-bottom: 25vh;
-    margin-top: 25vh;
+
+  .grid_container_dolomites {
+    grid-column: 1 / 5;
+    grid-row: 11 / 18;
   }
-  .company_title_footer h1 {
-    margin: 0;
+
+  .grid_container_zhangye {
+    grid-column: 5 / 9;
+    grid-row: 11 / 18;
+  }
+
+  .grid_container_middle_east {
+    grid-column: 1 / 5;
+    grid-row: 21 / 28;
+  }
+
+  .grid_container_iceland {
+    grid-column: 5 / 9;
+    grid-row: 21 / 28;
+  }
+  .grid_container_swiss_alps h3,
+  .grid_container_usa h3,
+  .grid_container_dolomites h3,
+  .grid_container_zhangye h3,
+  .grid_container_middle_east h3,
+  .grid_container_iceland h3 {
+    font-size: 16px;
+  }
+  aside {
+    text-align: center;
+  }
+}
+@media (max-width: 1000px) {
+  .showcase:hover .banner_title {
+    font-size: 2em;
+  }
+  .grid_container_swiss_alps h3,
+  .grid_container_usa h3,
+  .grid_container_usa p,
+  .grid_container_dolomites h3,
+  .grid_container_zhangye h3,
+  .grid_container_zhangye p,
+  .grid_container_middle_east h3,
+  .grid_container_iceland h3,
+  .grid_container_iceland p {
+    font-size: 14px;
   }
 }
 
-@media (max-width: 750px) {
-  #gmap_canvas {
-    width: 50vw;
-    height: 40vh;
+@media (max-width: 825px) {
+  #grid_container {
+    grid-template-rows: repeat(36, 8vw);
   }
-}
-
-@media (max-width: 600px) {
-  #gmap_canvas {
-    width: 60vw;
-    height: 40vh;
+  .grid_container_swiss_alps {
+    grid-column: 1 / 5;
+    grid-row: 1 / 8;
   }
-  main {
+  .grid_container_usa {
+    grid-column: 5 / 9;
+    grid-row: 1 / 8;
+  }
+  .grid_container_dolomites {
+    grid-column: 1 / 5;
+    grid-row: 13 / 20;
+  }
+  .grid_container_zhangye {
+    grid-column: 5 / 9;
+    grid-row: 13 / 20;
+  }
+  .grid_container_middle_east {
+    grid-column: 1 / 5;
+    grid-row: 25 / 33;
+  }
+  .grid_container_iceland {
+    grid-column: 5 / 9;
+    grid-row: 25 / 33;
+  }
+  .video_and_contacts_container {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
     align-items: center;
+}
+#plane_pano {
+  border-radius: 20px;
+}
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 1.5em;
   }
-}*/
+  h2 {
+    font-size: 1.25em;
+  }
+  .showcase:hover .banner_title {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 625px) {
+  #grid_container {
+    grid-template-rows: repeat(42, 8vw);
+  }
+  .grid_container_swiss_alps {
+    grid-column: 1 / 5;
+    grid-row: 1 / 8;
+  }
+  .grid_container_usa {
+    grid-column: 5 / 9;
+    grid-row: 1 / 8;
+  }
+  .grid_container_dolomites {
+    grid-column: 1 / 5;
+    grid-row: 15 / 22;
+  }
+  .grid_container_zhangye {
+    grid-column: 5 / 9;
+    grid-row: 15 / 22;
+  }
+  .grid_container_middle_east {
+    grid-column: 1 / 5;
+    grid-row: 30 / 37;
+  }
+  .grid_container_iceland {
+    grid-column: 5 / 9;
+    grid-row: 30 / 37;
+  }
+}
+
+@media (max-width: 500px) {
+  /* display flex instead of grid and make one column  of photo following each text*/
+}
