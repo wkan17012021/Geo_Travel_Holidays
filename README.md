@@ -1,3 +1,3 @@
 # Geo_Travel_Holidays
 
-# dummy website to showcase html, css and js proficiency for professional (junior role) job applications.
+# static front-end website to showcase html, css proficiency for professional (junior role) job applications.
