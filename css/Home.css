@@ -97,7 +97,7 @@ a:visited {
   position: relative;
 }
 
-.showcase img {
+.showcase video {
   /* position: absolute; */
   object-fit: cover;
   width: 100%;
@@ -107,17 +107,18 @@ a:visited {
 
 .banner_title {
   color: rgb(77, 77, 77);
-  text-align: center;
+  text-align: end;
   border-radius: 5px;
   position: absolute;
-  top: 15%;
-  left: 50%;
+  top: 65%;
+  left: 70%;
   transform: translate(-50%, -50%);
   opacity: 0;
+  width: 50vw;
 }
 
 .showcase:hover .banner_title {
-  font-size: 4em;
+  font-size: 3em;
   opacity: 1;
   animation: text_appear 2s ease-in-out;
 }
@@ -280,7 +281,7 @@ aside {
     height: 5vh;
   }
   .showcase:hover .banner_title {
-    font-size: 3em;
+    font-size: 1.5em;
   }
   .Current_Tours {
     text-align: center;
@@ -337,7 +338,7 @@ aside {
 }
 @media (max-width: 1000px) {
   .showcase:hover .banner_title {
-    font-size: 2em;
+    font-size: 1.25em;
   }
   .grid_container_swiss_alps h3,
   .grid_container_usa h3,
@@ -399,7 +400,7 @@ aside {
     font-size: 1.25em;
   }
   .showcase:hover .banner_title {
-    font-size: 1.5em;
+    font-size: 1.25em;
   }
 }
 
