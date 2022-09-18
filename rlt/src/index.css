@@ -7,6 +7,7 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border: 0.5px solid red;
 }
 
 code {
@@ -21,6 +22,8 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 img,
 picture,
@@ -59,4 +62,9 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
 }

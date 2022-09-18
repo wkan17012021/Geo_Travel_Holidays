@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  padding: 1.2rem 0;
+  background-color: #7A2424;
+  color: #FFF;
+}
+
+.company_container, .nav_logo {
+  margin: 0 auto;
+}
+
+.nav_logo {
+  height: auto;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.nav_logo:hover {
+  transform: scale(1.1);
+}
+
+.nav_links {
+  margin: auto;
+  font-size: 0.9rem;
+}
+
+.nav_links li {
+  display: inline;
+  margin: 1rem;
+  justify-self: end;
+}
+
