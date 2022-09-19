@@ -1,0 +1,24 @@
+.tabs {
+    margin: 1rem 0 1rem 2.5rem;
+    width: 50vw;
+}
+.tabs ol {
+    text-align: center;
+}
+
+.tab-list-item {
+display: inline-block;
+list-style: none;
+width: 33.3%;
+padding: 0.5rem 2rem;
+cursor: pointer;
+}
+
+.tab-list-active {
+border-bottom: 2px solid #7A2424;
+}
+
+.tab-content {
+    padding-top: 1.5rem;
+    border-top: 0.5px solid rgb(119, 119, 119);
+}
