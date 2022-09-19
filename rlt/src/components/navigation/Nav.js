@@ -33,7 +33,7 @@ const Nav = () => {
           </li>
           <li>
             <a>
-              <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/344/external-bars-development-royyan-wijaya-detailed-outline-royyan-wijaya-2.png" alt="hamburger icon"  color="white"/>
+              <img src="https://cdn-icons-png.flaticon.com/512/660/660376.png" alt="hamburger icon"  color="white"/>
             </a>
           </li>
         </ul>

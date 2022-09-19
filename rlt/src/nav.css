@@ -32,9 +32,14 @@ nav {
   justify-self: end;
 }
 
-.nav_links li a  img{
+.nav_links li a {
+  cursor: pointer;
+}
+
+.nav_links li a img {
   display: inline;
   width: 30px;
   height: auto;
 }
+
 
