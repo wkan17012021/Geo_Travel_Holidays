@@ -2,7 +2,6 @@ import React from "react";
 import fossil_emblem from "../../assets/fossil_emblem.jpeg"; 
 
 const Nav = () => {
-  console.log(fossil_emblem);
   return (
     <nav>
       <div className="company_container">
@@ -19,22 +18,22 @@ const Nav = () => {
           <li><a href="#" target="blank">About the Site (the build history)</a></li>
           <li>
             <a>
-              <i className="fab fa-facebook-square fa-2x"></i>
+              <img src="https://img.icons8.com/color/344/facebook-new.png" alt="facebook icon" />
             </a>
           </li>
           <li>
             <a>
-              <i className="fab fa-instagram fa-2x"></i>
+            <img src="https://img.icons8.com/fluency/344/instagram-new.png" alt="instagram icon" />
             </a>
           </li>
           <li>
             <a>
-              <i className="fab fa-twitter-square fa-2x"></i>
+            <img src="https://img.icons8.com/fluency/344/twitter.png" alt="twitter icon" />
             </a>
           </li>
           <li>
             <a>
-              <i className="fa fa-bars fa-2x" aria-hidden="true"></i>
+              <img src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/344/external-bars-development-royyan-wijaya-detailed-outline-royyan-wijaya-2.png" alt="hamburger icon"  color="white"/>
             </a>
           </li>
         </ul>
