@@ -1,5 +1,5 @@
 .panels {
-  min-height: 100vh;
+  min-height: 80vh;
   overflow: hidden;
   display: flex;
   cursor: pointer;
@@ -80,7 +80,7 @@
     font-size: 2em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .panels {
         flex-direction: column;
     }
@@ -99,5 +99,11 @@
   .panel p {
     font-size: 0.75em;
     min-height: 20vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .panels {
+    min-height: 60vh;
   }
 }

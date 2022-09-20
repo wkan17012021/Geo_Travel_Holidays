@@ -1,0 +1,10 @@
+.two_col_container {
+    display: flex;
+    gap: 5px;
+}
+
+@media (max-width: 1000px) {
+    .two_col_container {
+        flex-direction: column;
+    }
+  }
