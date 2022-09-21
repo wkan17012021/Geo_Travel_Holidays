@@ -27,6 +27,7 @@ body {
   -webkit-font-smoothing: antialiased;
   max-width: 1440px;
   margin: 0 auto;
+  background: linear-gradient(to right, #7A2424, #420A4D); 
 }
 img,
 picture,

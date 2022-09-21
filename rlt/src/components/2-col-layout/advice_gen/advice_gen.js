@@ -34,13 +34,13 @@ const AdviceGen = () => {
     }
   };
   return (
-    <section>
+    <section className="advice_container">
       <div className="advice-num-wrapper">
         <h2 className="title">
           Here are some of our traveller's favourite quotes!
         </h2>
         <h2>
-          Advice #<span id="advice-num">117</span>
+          Quote #<span id="advice-num">117</span>
         </h2>
       </div>
       <blockquote className="quote-wrapper">
