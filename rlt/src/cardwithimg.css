@@ -1,0 +1,26 @@
+.card_container {
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    max-width: 90vw;
+    margin: 0 auto;
+
+}
+.item_wrapper {
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+.item_details_wrapper, .item_wrapper p {
+    margin: 1rem 0;
+}
+
+.img_wrapper img {
+    border-radius: 10px 10px 0 0;
+}
+
+.img_wrapper, .item-wrapper  {
+    text-align: center;
+}
+
+.item_wrapper span {
+    margin: 0 0.5rem;
+}

@@ -48,8 +48,8 @@ const AdviceGen = () => {
         and taking action."
       </blockquote>
       <picture>
-        <source media="(max-width:375px)" srcset={mobileDiv} />
-        <source media="(min-width:376px)" srcset={desktopDiv} />
+        <source media="(max-width:375px)" srcSet={mobileDiv} />
+        <source media="(min-width:376px)" srcSet={desktopDiv} />
         <img src="./images/pattern-divider-mobile.svg" alt="pause icon" />
       </picture>
       <button onClick={getRandQuote} type="button" id="quote-generator" className="quote-generator">

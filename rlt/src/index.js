@@ -6,6 +6,8 @@ import "./flex_panel.css";
 import "./tabs.css";
 import "./advice_gen.css";
 import "./two_col_layout.css";
+import "./cardwithimg.css";
+
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
