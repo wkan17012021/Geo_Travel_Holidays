@@ -3,6 +3,7 @@
   overflow: hidden;
   display: flex;
   cursor: pointer;
+  width: 100%;
 }
 
 .panel {

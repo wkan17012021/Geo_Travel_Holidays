@@ -4,6 +4,7 @@ import Tabs from'./components/2-col-layout/intro/Tabs';
 import AdviceGen from'./components/2-col-layout/advice_gen/advice_gen';
 import TwoColLayout from './components/2-col-layout/2-col-layout';
 import ImgCard from './components/card_w_img/cardWithImg';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/* <p>Why travel with RLT? animation (gsap) section?</p> */}
       {/* <p>Discover section: mentions with JFclub, blog style destination reviews teaser on LHS (links to another page of full blog style reviews or redirects to other travel sites), w/ newsletter signup on RHS</p> */}
       {/* <p>Footer: contact links, snapshot gallery, back to top scroll button</p> */}
+      <Footer />
     </div>
   );
 }

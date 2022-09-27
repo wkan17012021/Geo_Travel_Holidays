@@ -18,22 +18,22 @@ const Nav = () => {
           <li><a href="#" target="blank">About the Site (the build history)</a></li>
           <li>
             <a>
-              <img src="https://img.icons8.com/color/344/facebook-new.png" alt="facebook icon" />
+              <img src="https://img.icons8.com/color/344/facebook-new.png" alt="facebook icon" className="social_media_icon"/>
             </a>
           </li>
           <li>
             <a>
-            <img src="https://img.icons8.com/fluency/344/instagram-new.png" alt="instagram icon" />
+            <img src="https://img.icons8.com/fluency/344/instagram-new.png" alt="instagram icon" className="social_media_icon"/>
             </a>
           </li>
           <li>
             <a>
-            <img src="https://img.icons8.com/fluency/344/twitter.png" alt="twitter icon" />
+            <img src="https://img.icons8.com/fluency/344/twitter.png" alt="twitter icon" className="social_media_icon"/>
             </a>
           </li>
           <li>
             <a>
-              <img src="https://cdn-icons-png.flaticon.com/512/660/660376.png" alt="hamburger icon"  color="white"/>
+              <img src="https://cdn-icons-png.flaticon.com/512/660/660376.png" alt="hamburger icon"  className="burger_icon"/>
             </a>
           </li>
         </ul>
