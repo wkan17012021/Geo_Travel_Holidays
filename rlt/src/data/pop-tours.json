@@ -1,0 +1,67 @@
+{
+    "tours": [
+        {
+            "id": 1,
+            "imgPath":
+        "https://images.unsplash.com/photo-1611862301382-fdf70949ab6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1206&q=80",
+            "alt": "Antelope Canyon, Arizona, USA",
+            "price": 800,
+            "rating": "10 / 10",
+            "moreInfo": "https://www.ourbreathingplanet.com/antelope-canyon/",
+            "duration": 4,
+            "capacity": 6
+        },
+        {
+            "id": 2,
+            "imgPath":
+        "https://images.unsplash.com/photo-1592960972125-630ee220aa08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+            "alt": "Snæfellsnesvegur, Grundarfjörður, Iceland, Iceland",
+            "price": 500,
+            "rating": "8 / 10",
+            "moreInfo": "https://www.facebook.com/geotoursice",
+            "duration": 8,
+            "capacity": 10
+        },
+        {
+        "id": 3,
+        "imgPath":
+    "https://images.unsplash.com/photo-1516854550014-97f4275da925?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+        "alt": "Zhangye Danxia National GeoPark, Gansu Province, China",
+        "price": 700,
+        "rating": "7 / 10",
+        "moreInfo": "https://en.unesco.org/global-geoparks/zhangye",
+        "duration": 3,
+        "capacity": 12
+    },
+    {
+        "id": 4,
+        "imgPath": "/tour_photos/batuur_sunrise_edited.jpg",
+        "alt": "Mount Batuur, Bali, Indonesia",
+        "price": 600,
+        "rating": "8 / 10",
+        "moreInfo": "https://en.unesco.org/global-geoparks/batur",
+        "duration": 2,
+        "capacity": 8
+    },
+    {
+    "id": 5,
+        "imgPath": "https://images.pexels.com/photos/10784419/pexels-photo-10784419.jpeg?cs=srgb&dl=pexels-torben-jensen-10784419.jpg&fm=jpg",
+        "alt": "Golden Gate Bridge, California, US",
+        "price": 900,
+        "rating": "9 / 10",
+        "moreInfo": "https://www.calacademy.org/getting-here",
+        "duration": 4,
+        "capacity": 14
+    },
+    {
+        "id": 6,
+            "imgPath": "https://images.unsplash.com/photo-1546465612-c841dcade027?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80",
+            "alt": "Côte Azur, Southern France",
+            "price": 750,
+            "rating": "8 / 10",
+            "moreInfo": "https://undiscoveredmountains.com/french-alps/geology",
+            "duration": 7,
+            "capacity": 16
+        }
+    ]
+}

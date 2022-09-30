@@ -13,6 +13,8 @@
 }
 .img_wrapper img {
     border-radius: 10px 10px 0 0;
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
 .img_wrapper > a > figcaption {
     margin: 1rem auto;
@@ -43,8 +45,6 @@
 @media only screen and (min-width: 700px) {
     .card_container {
         flex-direction: row;
-    }
-    .card_item_wrapper {
-        max-width: 350px;
+        flex-wrap: wrap;
     }
 }
