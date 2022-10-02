@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap");
 
 html,
 body {
@@ -6,11 +6,12 @@ body {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
-  font-family: "Catamaran", 'Roboto', Arial,
-    sans-serif;
+  font-family: "Catamaran", "Roboto", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* border: 0.5px solid red; */
@@ -18,16 +19,16 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
-  background: linear-gradient(to right, #7A2424, #420A4D); 
+  background: #f3eed9;
 }
 img,
 picture,

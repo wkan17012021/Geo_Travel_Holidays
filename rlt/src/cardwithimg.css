@@ -1,50 +1,51 @@
 .card_container {
-    max-width: 90vw;
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  max-width: 1440px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .card_item_wrapper {
-    max-width: 400px;
-    border: 1px solid #ebebeb;
-    border-radius: 10px;
-    margin: 0 auto;
+  max-width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 auto;
 }
 .img_wrapper img {
-    border-radius: 10px 10px 0 0;
-    width: 100%;
-    aspect-ratio: 1 / 1;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 .img_wrapper > a > figcaption {
-    margin: 1rem auto;
-    color: #BADA55; 
-    text-align: center;   
+  margin: 1rem auto;
+  color: #bada55;
+  text-align: center;
 }
 .item_wrapper {
-    padding: 0 1rem;
-    margin: 1rem 0;
+  padding: 0 1rem;
+  margin: 1rem 0;
 }
 .item_wrapper span {
-    margin: 0 0.5rem;
+  margin: 0 0.5rem;
 }
-.item_details_wrapper, .item_wrapper p {
-    margin: 1rem 0;
+.item_details_wrapper,
+.item_wrapper p {
+  margin: 1rem 0;
 }
 .item_details_wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 .item_details_wrapper img {
-    display: inline-block;
-    width: 30px;
-    height: auto;
+  display: inline-block;
+  width: 30px;
+  height: auto;
 }
 
 @media only screen and (min-width: 700px) {
-    .card_container {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .card_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
