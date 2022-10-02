@@ -31,8 +31,7 @@ class Tabs extends Component {
     return (
       <main className="tabs">
         <h2>
-          Explore the Great Unknown with us(make sure the selected tab is styled
-          e.g. colored in grey to signify it is the active tab)
+          Explore the Great Unknown with us
         </h2>
         <ol className="tab-list">
           {children.map((child) => {

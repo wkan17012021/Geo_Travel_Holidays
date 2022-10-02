@@ -5,6 +5,7 @@ nav {
   background: whitesmoke;
   width: 100%;
   position: fixed;
+  top: 0;
 }
 
 .company_container, .nav_logo {

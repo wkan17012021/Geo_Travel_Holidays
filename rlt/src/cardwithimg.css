@@ -1,6 +1,6 @@
 .card_container {
   max-width: 1440px;
-  margin: 1rem auto;
+  margin: 3rem auto;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -35,7 +35,7 @@
 .item_details_wrapper {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .item_details_wrapper img {
   display: inline-block;

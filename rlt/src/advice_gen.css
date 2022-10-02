@@ -11,19 +11,18 @@
     text-align: center;
   }
   
-  .advice-num-wrapper * {
-    color: greenyellow;
-    color: hsl(150, 100%, 66%);
+  .advice-num-wrapper {
+    color: #000;
     font-size: 1rem;
     letter-spacing: 2px;
   }
   
   .quote-wrapper {
-    color: whitesmoke;
-    color: hsl(193, 38%, 86%);
+    color: #000;
     font-weight: 800;
     text-align: center;
     margin-bottom: 1rem;
+    font-style: italic;
   }
   
   picture img {

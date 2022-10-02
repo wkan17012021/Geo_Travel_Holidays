@@ -6,7 +6,7 @@
 }
 .tabs, .advice_container {
     width: 40%;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 @media (max-width: 1000px) {

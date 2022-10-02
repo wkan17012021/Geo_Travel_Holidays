@@ -1,6 +1,9 @@
 .tabs {
     width: 50vw;
 }
+.tab-list {
+    margin-top: 1.5rem;
+}
 .tabs ol {
     text-align: center;
 }
@@ -14,10 +17,10 @@ cursor: pointer;
 }
 
 .tab-list-active {
-border-bottom: 2px solid #7A2424;
+border-bottom: 3px solid #7A2424;
 }
 
 .tab-content {
     padding-top: 1.5rem;
-    border-top: 0.5px solid rgb(119, 119, 119);
+    /* border-top: 1px solid rgb(0, 0, 0); */
 }
