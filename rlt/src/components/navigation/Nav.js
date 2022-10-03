@@ -1,5 +1,6 @@
 import React from "react";
-import fossil_emblem from "../../assets/fossil_emblem.jpeg"; 
+import fossil_emblem from "../../assets/fossil_emblem.jpeg";
+import PrimaryBtn from '../buttons/PrimaryBtn'; 
 
 const Nav = () => {
   return (
@@ -13,9 +14,15 @@ const Nav = () => {
         </div>
       </div>
       <ul className="nav_links">
-          <li><a className="home" href="#">Home</a></li>
-          <li><a href="#" target="blank">Destinations</a></li>
-          <li><a href="#" target="blank">About the Site (the build history)</a></li>
+          <li>
+            <PrimaryBtn btnText='Home' href={'#'}/>
+           </li>
+          <li>
+          <PrimaryBtn btnText='Destinations' href={'#'}/>
+          </li>
+          <li>
+          <PrimaryBtn btnText='About the Site' href={'#'}/>
+            </li>
           <li>
             <a>
               <img src="https://img.icons8.com/color/344/facebook-new.png" alt="facebook icon" className="social_media_icon"/>
