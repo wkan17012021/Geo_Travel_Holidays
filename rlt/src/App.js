@@ -1,14 +1,15 @@
 import Nav from'./components/navigation/Nav';
+import Sidebar from './components/sidebar/Sidebar';
 import FlexPanel from'./components/flex_panel/FlexPanel';
-import Tabs from'./components/2-col-layout/intro/Tabs';
-import AdviceGen from'./components/2-col-layout/advice_gen/advice_gen';
 import TwoColLayout from './components/2-col-layout/2-col-layout';
 import JsonBlogs from './components/card_w_img/JsonBlogs';
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div id="outer_container" className="App">
+      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'}  />
+      <div id="page-wrap"></div>
       <Nav />
       <FlexPanel />
       {/* <p>Large hero section with flex img gallery with clickable links or mixkit video background w/ overlay intro welcome text or parallax image</p> */}

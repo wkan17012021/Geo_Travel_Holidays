@@ -45,4 +45,19 @@ nav {
   height: auto;
 }
 
+@media (max-width: 950px) {
+  .company_title {
+    display: none;
+  }
+  .company_container {
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 650px) {
+  .company_container, .nav_links {
+    display: none;
+  }
+}
 

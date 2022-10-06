@@ -73,3 +73,8 @@ ul {
   list-style-type: none;
   text-align: center;
 }
+
+#page-wrap {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
