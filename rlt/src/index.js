@@ -9,6 +9,7 @@ import "./tabs.css";
 import "./advice_gen.css";
 import "./two_col_layout.css";
 import "./cardwithimg.css";
+import "./scroll-top-btn.css"
 import "./footer.css";
 
 import App from "./App";

@@ -4,6 +4,7 @@ import FlexPanel from'./components/flex_panel/FlexPanel';
 import TwoColLayout from './components/2-col-layout/2-col-layout';
 import JsonBlogs from './components/card_w_img/JsonBlogs';
 import Footer from './components/footer/Footer';
+import ScrollTopBtn from './components/buttons/ScrollTopBtn';
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
       {/* <p>full width lazy loading video?</p> */}
       {/* <p>Why travel with RLT? animation (gsap) section?</p> */}
       {/* <p>Discover section: mentions with JFclub, blog style destination reviews teaser on LHS (links to another page of full blog style reviews or redirects to other travel sites), w/ newsletter signup on RHS</p> */}
-      {/* <p>Footer: snapshot gallery, back to top scroll button</p> */}
       <JsonBlogs />
+      <ScrollTopBtn />
       <Footer />
     </div>
   );
