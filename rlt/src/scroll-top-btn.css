@@ -1,6 +1,26 @@
 .scroll_btn {
     position: fixed;
-    padding: 1rem 1rem;
-    bottom: 40px;
+    padding: 0.5rem 0.5rem;
+    bottom: 20px;
     right: 20px;
+}
+
+.scroll_btn img {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: whitesmoke;
+    opacity: 0.75;
+}
+.scroll_btn img:hover {
+    outline: 2px solid #8A8CF4;
+    outline-offset: 2px;
+    
+}
+
+@media (max-width: 650px) {
+    .scroll_btn {
+        padding: 0;
+        width: 35px;
+        bottom: 20px;
+    }
 }
