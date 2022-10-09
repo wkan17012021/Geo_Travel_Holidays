@@ -4,7 +4,7 @@ import PrimaryBtn from '../buttons/PrimaryBtn';
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className="main_nav">
       <div className="company_container">
         <div className="logo_wrapper">
           <img src={fossil_emblem} alt="ammonite" className="nav_logo" width="50" height="auto"/>

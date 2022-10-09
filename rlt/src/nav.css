@@ -6,9 +6,11 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
+  opacity: 0.9;
 }
 
-.company_container, .nav_logo {
+.company_container,
+.nav_logo {
   margin: 0 auto;
 }
 
@@ -39,7 +41,8 @@ nav {
   cursor: pointer;
 }
 
-.social_media_icon, .burger_icon {
+.social_media_icon,
+.burger_icon {
   display: inline;
   width: 30px;
   height: auto;
@@ -54,10 +57,12 @@ nav {
   }
 }
 
-
 @media (max-width: 650px) {
-  .company_container, .nav_links {
+  .company_container,
+  .nav_links {
     display: none;
   }
+  .main_nav {
+    height: 50px;
+  }
 }
-

@@ -9,7 +9,7 @@ const FlexPanel = () => {
   };
 
   return (
-    <div className="panels">
+    <div id="panels" className="panels">
       <div onClick={handleToggle} className="panel panel1" title="Turners Rock Tunnel, Co. Kerry, Ireland">
         <p>Pushing</p>
         <p>Engineering</p>

@@ -12,7 +12,7 @@
   background: #373a47;
 }
 
-/* Color/shape of burger icon bars on hover*/
+/* Color/shape of burger icon bars on hover */
 .bm-burger-bars-hover {
   background: #8A8CF4;
 }
@@ -22,10 +22,6 @@
   background: black;
 }
 
-/*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
@@ -50,16 +46,24 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background: whitesmoke;
+    opacity: 0.8;
 }
 
-/* Individual item */
-.bm-item {
-  color: #d1d1d1;
+/* Subdivide styling for each list item type */
+.bm-item-list a {
+  color: black;
   margin-bottom: 10px;
   text-align: left;
   text-decoration: none;
   transition: color 0.2s;
   width: 30%;
+}
+
+.bm-item-list img {
+  display: inline;
+  width: 30px;
+  height: auto;
 }
 
 .bm-item:hover {
@@ -80,5 +84,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   @media (max-width: 650px) {
     .bm-burger-button {
       right: 45%;
+      top: 1%;
     }
   }  
