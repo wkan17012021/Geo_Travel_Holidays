@@ -1,7 +1,7 @@
 import React from "react";
 import Data from "../../data/pop-tours.json";
 
-const JsonBlogs = () => {
+const JsonPopTours = () => {
   // console.log(Data); returns the JSON data but we need to map over the array which is tours array
   return (
     <div className="card_container">
@@ -44,4 +44,4 @@ const JsonBlogs = () => {
   );
 };
 
-export default JsonBlogs;
+export default JsonPopTours;
