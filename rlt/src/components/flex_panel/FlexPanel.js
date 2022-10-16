@@ -10,27 +10,47 @@ const FlexPanel = () => {
 
   return (
     <div id="panels" className="panels">
-      <div onClick={handleToggle} className="panel panel1" title="Turners Rock Tunnel, Co. Kerry, Ireland">
+      <div
+        onClick={handleToggle}
+        className="panel panel1"
+        title="Rock cavern construction, Hong Kong"
+      >
         <p>Pushing</p>
         <p>Engineering</p>
         <p>Boundaries</p>
       </div>
-      <div onClick={handleToggle} className="panel panel2" title="ERIELL oil rig at night">
+      <div
+        onClick={handleToggle}
+        className="panel panel2"
+        title="Bryce Canyon, Utah, USA"
+      >
         <p>Greater</p>
         <p>Exploration</p>
         <p>Depths</p>
       </div>
-      <div onClick={handleToggle} className="panel panel3" title="Artist Point Trail, Yellowstone">
+      <div
+        onClick={handleToggle}
+        className="panel panel3"
+        title="Yellowstone Artist Point, Wyoming, USA"
+      >
         <p>Earth's</p>
         <p>Art</p>
         <p>Studio</p>
       </div>
-      <div onClick={handleToggle} className="panel panel4" title="Mýrdalsjökull, Iceland">
+      <div
+        onClick={handleToggle}
+        className="panel panel4"
+        title="Mount Batuur, Bali, Indonesia"
+      >
         <p>Curiosity</p>
         <p>Discovery</p>
         <p>Adventure</p>
       </div>
-      <div onClick={handleToggle} className="panel panel5" title="Stuðlagil Canyon, Iceland">
+      <div
+        onClick={handleToggle}
+        className="panel panel5"
+        title="Skogafoss Waterfall, Iceland"
+      >
         <p>Dreams</p>
         <p>Inspiration</p>
         <p>Reality</p>
