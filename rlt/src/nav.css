@@ -7,6 +7,7 @@ nav {
   position: fixed;
   top: 0;
   opacity: 0.9;
+  z-index: 100;
 }
 
 .company_container,

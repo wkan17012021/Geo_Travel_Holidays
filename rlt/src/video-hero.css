@@ -1,0 +1,19 @@
+.showcase {
+    position: relative;
+}
+.banner_title {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    background: whitesmoke;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+.showcase_video {
+    width: 100%;
+}
+@media (max-width: 700px) {
+    .banner_title{
+        font-size: 1rem;
+    }
+}

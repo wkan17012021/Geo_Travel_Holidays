@@ -18,4 +18,5 @@
 .primary_btn:hover {
     outline: 2px solid #8A8CF4;
     outline-offset: 2px;
+    transition: 0.25s ease-in;
 }

@@ -7,7 +7,7 @@ const VideoBanner = () => {
     <section class="showcase">
       <h2 class="banner_title">Where will your journey take you?</h2>
       <video
-        class="showcase_photo"
+        class="showcase_video"
         poster={PlaceHolder}
         alt="man in snowy mountains"
         muted
