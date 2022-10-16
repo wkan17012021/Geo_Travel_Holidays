@@ -18,8 +18,6 @@ function App() {
       <TwoColLayout />
 
       {/* <p>Most Popular Tours with mosaic grid responsive layout</p> */}
-      {/* <p>full width lazy loading video?</p> */}
-      {/* <p>Why travel with RLT? animation (gsap) section?</p> */}
       {/* <p>Discover section: mentions with JFclub, blog style destination reviews teaser on LHS (links to another page of full blog style reviews or redirects to other travel sites), w/ newsletter signup on RHS</p> */}
       <h2>A Selection of our Popular Destinations</h2>
       <JsonPopTours />
