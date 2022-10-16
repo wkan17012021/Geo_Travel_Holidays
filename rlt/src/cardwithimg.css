@@ -12,6 +12,15 @@
   margin: 0 auto;
   box-shadow: 0 2px 10px rgb(0 0 0 / 40%);
 }
+.card_item_wrapper:hover {
+ transform: translateY(-8px);
+ outline: 2px solid #8A8CF4;
+ outline-offset: 5px;
+ transition: transform 0.5s ease-in-out;
+}
+.img_wrapper {
+  text-align: center;
+}
 .img_wrapper img {
   border-radius: 10px 10px 0 0;
   width: 100%;
@@ -19,8 +28,33 @@
 }
 .img_wrapper > a > figcaption {
   margin: 1rem auto;
-  color: #bada55;
-  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+}
+/* .img_wrapper > a > figcaption:hover {
+  border-bottom: #8A8CF4;
+  transition:  1.5s ease-in-out;
+} */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #8A8CF4;
+}
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #8A8CF4;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .item_wrapper {
   padding: 0 1rem;

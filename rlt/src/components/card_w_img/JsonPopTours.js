@@ -12,12 +12,12 @@ const JsonPopTours = () => {
             <figure className="img_wrapper">
               <a href={record.moreInfo} target="_blank" rel="noreferrer">
                 <img src={record.imgPath} title={record.alt} alt={record.alt} />
-                <figcaption>{record.alt}</figcaption>
+                <figcaption className="hover-underline-animation">{record.alt}</figcaption>
               </a>
             </figure>
             <div key={record.id} className="item_wrapper">
-              <span className="price">{record.price}</span>
-              <span className="rating">{record.rating}</span>
+              <span className="price">Price: £{record.price}</span>
+              <span className="rating">Rating: {record.rating}</span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                 aliquid repellat obcaecati vel. Repellendus, facilis.
@@ -27,14 +27,23 @@ const JsonPopTours = () => {
                 <img
                   className="calendar_icon"
                   alt="calendar icon representing number of days for this trip"
+                  title="trip duration in days"
                   src="https://img.icons8.com/fluency/48/000000/calendar.png"
                 />
-                <span className="duration">{record.duration}</span>
+                <span className="duration" title="trip duration in days">
+                  {record.duration}
+                </span>
                 <img
                   alt="people icon representing number of persons for this trip"
+                  title="maximum number of people allowed for the trip"
                   src="https://img.icons8.com/fluency/48/000000/conference-call.png"
                 />
-                <span className="capacity">{record.capacity}</span>
+                <span
+                  className="capacity"
+                  title="maximum number of people allowed for the trip"
+                >
+                  {record.capacity}
+                </span>
               </div>
             </div>
           </div>
