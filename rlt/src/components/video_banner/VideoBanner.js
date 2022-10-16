@@ -15,6 +15,7 @@ const VideoBanner = () => {
         playsInline
         controls
         preload="none"
+        loading="lazy"
       >
         <source src={Video} type="video/mp4"></source>
       </video>

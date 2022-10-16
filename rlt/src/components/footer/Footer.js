@@ -20,6 +20,7 @@ export default function Footer() {
                 src="https://img.icons8.com/color/344/facebook-new.png"
                 alt="facebook icon"
                 className="social_media_icon"
+                loading="lazy"
               />
             </a>
           </li>
@@ -29,6 +30,7 @@ export default function Footer() {
                 src="https://img.icons8.com/fluency/344/instagram-new.png"
                 alt="instagram icon"
                 className="social_media_icon"
+                loading="lazy"
               />
             </a>
           </li>
@@ -38,6 +40,7 @@ export default function Footer() {
                 src="https://img.icons8.com/fluency/344/twitter.png"
                 alt="twitter icon"
                 className="social_media_icon"
+                loading="lazy"
               />
             </a>
           </li>
@@ -56,6 +59,7 @@ export default function Footer() {
           className="nav_logo"
           width="50"
           height="auto"
+          loading="lazy"
         />
         <span className="footer_title">The Road Less Travelled</span>
         <quote>

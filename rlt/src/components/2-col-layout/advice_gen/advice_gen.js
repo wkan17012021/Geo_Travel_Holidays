@@ -50,10 +50,10 @@ const AdviceGen = () => {
       <picture>
         <source media="(max-width:375px)" srcSet={mobileDiv} />
         <source media="(min-width:376px)" srcSet={desktopDiv} />
-        <img src="./images/pattern-divider-mobile.svg" alt="pause icon" />
+        <img src="./images/pattern-divider-mobile.svg" alt="pause icon" loading="lazy"/>
       </picture>
       <button onClick={getRandQuote} type="button" id="quote-generator" className="quote-generator">
-        <img src={dice} alt="dice icon" className="dice-icon" />
+        <img src={dice} alt="dice icon" className="dice-icon" loading="lazy"/>
       </button>
     </section>
   );

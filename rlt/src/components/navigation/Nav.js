@@ -38,11 +38,6 @@ const Nav = () => {
             <img src="https://img.icons8.com/fluency/344/twitter.png" alt="twitter icon" className="social_media_icon"/>
             </a>
           </li>
-          {/* <li>
-            <a>
-              <img src="https://cdn-icons-png.flaticon.com/512/660/660376.png" alt="hamburger icon"  className="burger_icon"/>
-            </a>
-          </li> */}
         </ul>
     </nav>
   );
