@@ -1,0 +1,34 @@
+.usa_grid_container {
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+
+.img_1_wrapper {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.img_2_wrapper {
+  grid-area: 1 / 2 / 3 / 4;
+}
+.img_3_wrapper {
+  grid-area: 1 / 4 / 3 / 5;  
+}
+.img_4_wrapper {
+  grid-area: 4 / 4 / 5  / 5; 
+}
+.img_5_wrapper {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.img_6_wrapper {
+  grid-area:  3 / 2 / 5 / 4;
+}
+
+.usa_grid_container div > img {
+  height: 100%;
+  border-radius: 8px;
+}
+.img_6_wrapper > img {
+  width: 100%;
+}

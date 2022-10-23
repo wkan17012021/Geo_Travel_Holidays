@@ -10,6 +10,7 @@ import "./advice_gen.css";
 import "./two_col_layout.css";
 import "./cardwithimg.css";
 import "./video-hero.css";
+import "./canyon_tour.css";
 import "./scroll-top-btn.css";
 import "./footer.css";
 
