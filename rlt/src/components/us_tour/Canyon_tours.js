@@ -12,31 +12,31 @@ const CanyonTours = () => {
       <h2>Canyon Tours, USA</h2>
       <div className="usa_grid_container">
         <div className="img_1_wrapper">
-          <img alt="text" loading="lazy" src={Img1} />
+          <img loading="lazy" src={Img1} alt="narrow pass through pink orange sandstone walls"/>
         </div>
         <div className="img_2_wrapper">
-          <img alt="text" loading="lazy" src={Img2} />
+          <img loading="lazy" src={Img2} alt="grand canyon with visitors sitting on cliff edge"/>
         </div>
         <div className="img_3_wrapper">
-          <img alt="text" loading="lazy" src={Img3} />
+          <img loading="lazy" src={Img3} alt="ornate pink orange sandstone walls"/>
         </div>
         <div className="img_4_wrapper">
-          <img alt="text" loading="lazy" src={Img4} />
+          <img loading="lazy" src={Img4} alt="pink orange sandstone with wavy undulating faces"/>
         </div>
         <div className="img_5_wrapper">
-          <img alt="text" loading="lazy" src={Img5} />
+          <img loading="lazy" src={Img5} alt="pink orange sandstone narrow pass with sunlight streaming above"/>
         </div>
         <div className="img_6_wrapper">
-          <img alt="text" loading="lazy" src={Img6} />
+          <img loading="lazy" src={Img6} alt="grand canyon on overcast day"/>
         </div>
         <div className="txt_wrapper">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vitae deleniti eum deserunt omnis, obcaecati aspernatur quo atque dolores iusto, libero suscipit sint esse recusandae accusamus, sapiente fugit dolore itaque ut iste. Minus doloribus harum aliquid illum numquam enim velit, quaerat quod, temporibus voluptates libero possimus amet sint molestiae accusamus suscipit est necessitatibus ipsam, labore culpa. Maxime, dignissimos. Quo molestias sequi provident neque assumenda architecto qui vitae nihil voluptate at.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias vitae deleniti eum deserunt omnis, obcaecati aspernatur quo atque dolores iusto, libero suscipit sint esse recusandae accusamus, sapiente fugit dolore itaque ut iste. Minus doloribus harum aliquid illum numquam enim velit, quaerat quod, temporibus voluptates libero possimus.</p>
         </div>
         <div className="txt_wrapper">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint enim necessitatibus voluptatibus maxime qui aliquid quam doloribus eaque beatae blanditiis impedit earum reprehenderit nam eligendi aut odit, veritatis nisi suscipit quisquam ex! Perferendis fugiat porro accusantium aliquid? Dicta soluta quia quaerat minus temporibus ullam eaque nesciunt doloremque voluptate. Minus beatae, hic fugiat eius ipsam illum amet eaque totam maxime repudiandae.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint enim necessitatibus voluptatibus maxime qui aliquid quam doloribus eaque beatae blanditiis impedit earum reprehenderit nam eligendi aut odit, veritatis nisi suscipit quisquam ex! Perferendis fugiat porro accusantium aliquid? </p>
         </div>
         <div className="txt_wrapper_span">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At corporis cumque voluptates ipsam molestias consequatur accusantium neque totam animi enim delectus accusamus laboriosam aspernatur recusandae libero fugit corrupti error possimus est aliquid minus, culpa voluptate nemo! Repudiandae, corporis eligendi, quo accusamus enim non omnis vel praesentium doloremque laudantium fugit quam.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At corporis cumque voluptates ipsam molestias consequatur accusantium neque totam animi enim delectus accusamus laboriosam aspernatur recusandae libero fugit corrupti error possimus est aliquid minus, culpa voluptate nemo!</p>
         </div>
       </div>
     </section>
