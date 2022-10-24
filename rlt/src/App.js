@@ -5,6 +5,7 @@ import TwoColLayout from './components/2-col-layout/2-col-layout';
 import JsonPopTours from './components/card_w_img/JsonPopTours';
 import VideoBanner from './components/video_banner/VideoBanner';
 import CanyonTours from './components/us_tour/Canyon_tours';
+import SouthFranceTours from './components/south_france_tour/South_france_tours';
 import Footer from './components/footer/Footer';
 import ScrollTopBtn from './components/buttons/ScrollTopBtn';
 
@@ -24,6 +25,7 @@ function App() {
       <JsonPopTours />
       <VideoBanner />
       <CanyonTours />
+      <SouthFranceTours />
       <ScrollTopBtn />
       <Footer />
     </main>

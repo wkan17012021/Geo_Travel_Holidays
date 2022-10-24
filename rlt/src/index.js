@@ -11,6 +11,7 @@ import "./two_col_layout.css";
 import "./cardwithimg.css";
 import "./video-hero.css";
 import "./canyon_tour.css";
+import "./south-france-tours.css";
 import "./scroll-top-btn.css";
 import "./footer.css";
 
