@@ -49,8 +49,8 @@ const SouthFranceTours = () => {
               Volutpat eu faucibus vivamus eget bibendum cras.
             </p>
           </div>
-          <div className="bio_section lg:col-span-2">
-            <ul role="list" className="sm:-mt-8 sm:space-y-0">
+          <div className="bio_section">
+            <ul role="list" >
               {locationData.map((location) => (
                 <li key={location.id} className="location_list_item">
                   <div

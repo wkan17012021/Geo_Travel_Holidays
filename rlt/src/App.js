@@ -6,6 +6,7 @@ import JsonPopTours from './components/card_w_img/JsonPopTours';
 import VideoBanner from './components/video_banner/VideoBanner';
 import CanyonTours from './components/us_tour/Canyon_tours';
 import SouthFranceTours from './components/south_france_tour/South_france_tours';
+import BaliTour from './components/bali_tour/Bali_tour';
 import Footer from './components/footer/Footer';
 import ScrollTopBtn from './components/buttons/ScrollTopBtn';
 
@@ -26,6 +27,7 @@ function App() {
       <VideoBanner />
       <CanyonTours />
       <SouthFranceTours />
+      <BaliTour />
       <ScrollTopBtn />
       <Footer />
     </main>
