@@ -1,15 +1,14 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const PrimaryBtn = (props) => {
   return (
-    
-    <button
-      type="button"
-      class="primary_btn"
-    >
-        <a target="_blank" href={props.href}></a>
-      {props.btnText}
-    </button>
+    <BrowserRouter>
+    <Link class="primary_btn"
+    smooth 
+    to={props.href}>{props.linkTxt}</Link>
+    </BrowserRouter>
   );
 };
 

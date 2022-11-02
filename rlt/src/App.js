@@ -1,22 +1,23 @@
-import { BrowserRouter } from 'react-router-dom'; 
-import Nav from'./components/navigation/Nav';
-import Sidebar from './components/sidebar/Sidebar';
-import FlexPanel from'./components/flex_panel/FlexPanel';
-import TwoColLayout from './components/2-col-layout/2-col-layout';
-import JsonPopTours from './components/card_w_img/JsonPopTours';
-import VideoBanner from './components/video_banner/VideoBanner';
-import CanyonTours from './components/us_tour/Canyon_tours';
-import SouthFranceTours from './components/south_france_tour/South_france_tours';
-import BaliTour from './components/bali_tour/Bali_tour';
-import AboutSite from './components/about_site/AboutSite';
-import Footer from './components/footer/Footer';
-import ScrollTopBtn from './components/buttons/ScrollTopBtn';
+import { BrowserRouter } from "react-router-dom";
+import Nav from "./components/navigation/Nav";
+import Destinations from "./components/headings/Destinations";
+import Sidebar from "./components/sidebar/Sidebar";
+import FlexPanel from "./components/flex_panel/FlexPanel";
+import TwoColLayout from "./components/2-col-layout/2-col-layout";
+import JsonPopTours from "./components/card_w_img/JsonPopTours";
+import VideoBanner from "./components/video_banner/VideoBanner";
+import CanyonTours from "./components/us_tour/Canyon_tours";
+import SouthFranceTours from "./components/south_france_tour/South_france_tours";
+import BaliTour from "./components/bali_tour/Bali_tour";
+import AboutSite from "./components/about_site/AboutSite";
+import Footer from "./components/footer/Footer";
+import ScrollTopBtn from "./components/buttons/ScrollTopBtn";
 
 function App() {
   return (
     // <BrowserRouter>
-      <main id="outer_container" className="App">
-      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'}  />
+    <main id="outer_container" className="App">
+      <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
       <div id="page-wrap"></div>
       <Nav />
       <FlexPanel />
@@ -25,7 +26,7 @@ function App() {
 
       {/* <p>Most Popular Tours with mosaic grid responsive layout</p> */}
       {/* <p>Discover section: mentions with JFclub, blog style destination reviews teaser on LHS (links to another page of full blog style reviews or redirects to other travel sites), w/ newsletter signup on RHS</p> */}
-      <h2>A Selection of our Popular Destinations</h2>
+      <Destinations redirectLink="destinations" title="A Selection of our Popular Destinations" />
       <JsonPopTours />
       <VideoBanner />
       <CanyonTours />
@@ -36,7 +37,6 @@ function App() {
       <Footer />
     </main>
     // </BrowserRouter>
-    
   );
 }
 

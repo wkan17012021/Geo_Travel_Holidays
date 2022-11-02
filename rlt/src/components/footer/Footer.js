@@ -9,10 +9,10 @@ export default function Footer() {
         <h3>Reach Out to Us</h3>
         <ul>
           <li>
-            <PrimaryBtn btnText="rlt@hotmail.com" href={"#"} />
+            <PrimaryBtn linkTxt="rlt@hotmail.com" />
           </li>
           <li>
-            <PrimaryBtn btnText="01234 567 890" href={"#"} />
+            <PrimaryBtn linkTxt="01234 567 890" />
           </li>
           <li>
             <a>
