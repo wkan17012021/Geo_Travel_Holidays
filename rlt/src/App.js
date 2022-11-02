@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom'; 
 import Nav from'./components/navigation/Nav';
 import Sidebar from './components/sidebar/Sidebar';
 import FlexPanel from'./components/flex_panel/FlexPanel';
@@ -7,12 +8,14 @@ import VideoBanner from './components/video_banner/VideoBanner';
 import CanyonTours from './components/us_tour/Canyon_tours';
 import SouthFranceTours from './components/south_france_tour/South_france_tours';
 import BaliTour from './components/bali_tour/Bali_tour';
+import AboutSite from './components/about_site/AboutSite';
 import Footer from './components/footer/Footer';
 import ScrollTopBtn from './components/buttons/ScrollTopBtn';
 
 function App() {
   return (
-    <main id="outer_container" className="App">
+    // <BrowserRouter>
+      <main id="outer_container" className="App">
       <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'}  />
       <div id="page-wrap"></div>
       <Nav />
@@ -29,8 +32,11 @@ function App() {
       <SouthFranceTours />
       <BaliTour />
       <ScrollTopBtn />
+      <AboutSite />
       <Footer />
     </main>
+    // </BrowserRouter>
+    
   );
 }
 

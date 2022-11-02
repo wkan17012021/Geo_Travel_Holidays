@@ -1,0 +1,13 @@
+.about_site_container {
+    max-width: 75vw;
+    margin: 1rem auto;
+}
+
+.about_site_content h3 {
+    text-decoration:underline;
+    
+}
+
+.about_site_content h3, .about_site_content p {
+    margin: 1rem 0;
+}

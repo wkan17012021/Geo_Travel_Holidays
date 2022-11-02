@@ -8,14 +8,14 @@ const VideoBanner = () => {
       <h2 class="banner_title">Where will your journey take you?</h2>
       <video
         class="showcase_video"
-        poster={PlaceHolder}
         alt="man in snowy mountains"
-        muted
         loop
-        playsInline
+        muted
+        autoPlay
         controls
-        preload="none"
+        playsInline
         loading="lazy"
+        poster={PlaceHolder}
       >
         <source src={Video} type="video/mp4"></source>
       </video>
