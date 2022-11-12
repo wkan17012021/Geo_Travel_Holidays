@@ -14,7 +14,6 @@ import "./south-france-tours.css";
 import "./bali_tour.css";
 import "./about-site.css"
 import "./scroll-top-btn.css";
-import "./footer.css";
 
 
 import App from "./App";
