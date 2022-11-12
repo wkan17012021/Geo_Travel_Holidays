@@ -15,30 +15,30 @@ export default function Footer() {
             <PrimaryBtn linkTxt="01234 567 890" />
           </li>
           <li className="my-2 mx-auto flex justify-around w-1/2">
-            <a>
+            <div>
               <img
                 src="https://img.icons8.com/color/344/facebook-new.png"
                 alt="facebook icon"
                 className="social_media_icon w-7 h-auto inline"
                 loading="lazy"
               />
-            </a>
-            <a>
+            </div>
+            <div>
               <img
                 src="https://img.icons8.com/fluency/344/instagram-new.png"
                 alt="instagram icon"
                 className="social_media_icon w-7 h-auto inline"
                 loading="lazy"
               />
-            </a>
-            <a>
+            </div>
+            <div>
               <img
                 src="https://img.icons8.com/fluency/344/twitter.png"
                 alt="twitter icon"
                 className="social_media_icon w-7 h-auto inline"
                 loading="lazy"
               />
-            </a>
+            </div>
           </li>
         </ul>
       </div>
