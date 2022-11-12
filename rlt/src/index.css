@@ -1,5 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap");
 
+html {
+  font-size: 18px;
+}
 html,
 body {
   height: 100%;
@@ -14,8 +21,11 @@ body {
   font-family: "Catamaran", "Roboto", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* border: 0.5px solid red; */
   box-sizing: inherit;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 code {
@@ -26,7 +36,6 @@ code {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  /* max-width: 1440px; */
   margin: 0 auto;
   background: #f3eed9;
 }
@@ -79,8 +88,12 @@ ul {
   padding-top: 10px;
 }
 
+h1 {
+  font-size: 1.8rem;
+}
+
 h2 {
   margin: 1rem auto;
   text-align: center;
-  text-decoration: underline #8A8CF4;
+  text-decoration: underline #8a8cf4;
 }

@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import Nav from "./components/navigation/Nav";
 import Destinations from "./components/headings/Destinations";
 import Sidebar from "./components/sidebar/Sidebar";

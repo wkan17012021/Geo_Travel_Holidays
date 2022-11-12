@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./primary-btn.css";
-import "./nav.css";
 import "./sidebar.css";
 import "./flex_panel.css";
 import "./tabs.css";
@@ -16,6 +15,7 @@ import "./bali_tour.css";
 import "./about-site.css"
 import "./scroll-top-btn.css";
 import "./footer.css";
+
 
 import App from "./App";
 
