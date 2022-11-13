@@ -29,11 +29,11 @@ class Tabs extends Component {
     } = this;
 
     return (
-      <main className="tabs">
+      <main className="tabs w-6/12">
         <h2>
           Explore the Great Unknown with us
         </h2>
-        <ol className="tab-list">
+        <ol className="tab-list mt-6 text-center">
           {children.map((child) => {
             const { label } = child.props;
 
@@ -47,7 +47,7 @@ class Tabs extends Component {
             );
           })}
         </ol>
-        <div className="tab-content">
+        <div className="tab-content pt-6">
           {children.map((child) => {
             if (child.props.label !== activeTab) return undefined;
             return child.props.children;

@@ -22,10 +22,10 @@ class Tab extends Component {
       },
     } = this;
 
-    let className = 'tab-list-item';
+    let className = 'tab-list-item inline-block list-none w-1/3 py-2 px-8 cursor-pointer';
 
     if (activeTab === label) {
-      className += ' tab-list-active';
+      className += 'tab-list-active border-b-2 border-b-brand-purple';
     }
 
     return (
