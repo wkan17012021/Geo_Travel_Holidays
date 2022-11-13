@@ -38,10 +38,10 @@ const locationData = [
 
 const SouthFranceTours = () => {
   return (
-    <section className="fr_main_container">
-      <div className="fr_inner_wrapper">
-        <div className="fr_inner_grid_wrapper">
-          <div className="intro_section">
+    <section className="fr_main_container max-w-7xl mx-auto md:px-6">
+      <div className="fr_inner_wrapper md:my-0 md:mx-auto md:py-4 md-px-0 lg:p-12">
+        <div className="fr_inner_grid_wrapper mt-12 lg:grid lg:grid-cols-3 lg:gap-2 lg:my-0 lg:mx-auto">
+          <div className="intro_section px-4 lg:mt-16">
             <h2>South of France Tours</h2>
             <p>
               Nulla quam felis, enim faucibus proin velit, ornare id pretium.
@@ -49,20 +49,27 @@ const SouthFranceTours = () => {
               Volutpat eu faucibus vivamus eget bibendum cras.
             </p>
           </div>
-          <div className="bio_section">
-            <ul role="list" >
+          <div className="bio_section lg:col-span-2">
+            <ul role="list" className="mt-8 border-t border-gray-400 lg:grid lg:grid-cols-2 lg:gap-y-4 lg:mt-0">
               {locationData.map((location) => (
-                <li key={location.id} className="location_list_item">
-                  <div
-                    className="location_list_item_grid_wrapper"
-                  >
-                    <div>
-                      <img src={location.imageUrl} alt={location.imageAlt} className={
-                      location.customStyles}/>
+                <li
+                  key={location.id}
+                  className="location-list-item py-4 px-0 my-0 mx-auto lg:max-w-full lg:m-0"
+                >
+                  <div className="location_list_item_grid_wrapper px-4 t-8 md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:place-items-start lg:gap-4 ">
+                    <div className="md:col-start-1 lg:col-start-1 lg:col-end-3">
+                      <img
+                        src={location.imageUrl}
+                        alt={location.imageAlt}
+                        className={
+                          "md:aspect-[3/2] rounded-lg object-cover shadow-xl" +
+                          location.customStyles
+                        }
+                      />
                     </div>
-                    <div className="location_details_wrapper">
-                      <div>
-                        <div>
+                    <div className="location_details_wrapper text-left md:col-start-2 md:col-end-4 lg:col-start-1 lg:col-end-4">
+                      <div className="mt-8 pr-4 md:my-0 md:p-0">
+                        <div className="mt-4">
                           <h3>{location.placeName}</h3>
                           <p>{location.address}</p>
                         </div>

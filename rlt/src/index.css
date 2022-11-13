@@ -95,3 +95,9 @@ h2 {
 h3 {
   font-size: 1.25rem;
 }
+
+.portrait-adj {
+  max-width: 65%;
+  margin: 0 auto;
+  aspect-ratio: 3/4;
+}

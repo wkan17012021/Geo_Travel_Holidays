@@ -5,7 +5,6 @@ import "./sidebar.css";
 import "./flex_panel.css";
 import "./cardwithimg.css";
 import "./canyon_tour.css";
-import "./south-france-tours.css";
 import "./about-site.css";
 
 import App from "./App";
