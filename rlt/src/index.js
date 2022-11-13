@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "./primary-btn.css";
 import "./sidebar.css";
 import "./flex_panel.css";
 import "./tabs.css";
