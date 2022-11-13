@@ -34,7 +34,7 @@ const AdviceGen = () => {
     }
   };
   return (
-    <section className="advice_container">
+    <section className="advice_container md:w-10/12 md:my-4 md:mx-auto">
       <div className="advice-num-wrapper">
         <h2 className="title">
           Here are some of our traveller's favourite quotes!

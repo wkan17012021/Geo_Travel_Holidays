@@ -29,7 +29,7 @@ class Tabs extends Component {
     } = this;
 
     return (
-      <main className="tabs w-6/12">
+      <main className="tabs w-10/12 my-8 mx-auto md:w-11/12 md:my-4 md:mx-auto">
         <h2>
           Explore the Great Unknown with us
         </h2>

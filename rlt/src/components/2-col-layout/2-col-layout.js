@@ -4,7 +4,7 @@ import AdviceGen from "./advice_gen/advice_gen";
 
 const TwoColLayout = () => {
   return (
-    <section className="two_col_container">
+    <section className="two_col_container flex flex-col my-4 mx-auto max-w-7xl justify-between md:flex-row md:justify-center md:px-6 md:gap-4">
       <Tabs>
         <div label="Travel">
           The team at Road Less Travelled aims to provide a tailor-made
@@ -12,9 +12,9 @@ const TwoColLayout = () => {
           track". We aim to give our customers an exhilirating "forget-me-not"
           experience for the thrill-seekers, or perhaps an enlightening journey
           carefully crafted for the seasoned traveller. We blend destinations
-          that offer a visual wow factor, while emparting knowledge on
-          the natural processes that have shaped and sculpted the site as you
-          see it today.
+          that offer a visual wow factor, while emparting knowledge on the
+          natural processes that have shaped and sculpted the site as you see it
+          today.
         </div>
         <div label="Diverse Destinations">
           It really is our mission to offer discrete, "once-in-a-lifetime" tours
