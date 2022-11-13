@@ -60,14 +60,7 @@ button {
   outline: none;
   cursor: pointer;
 }
-a,
-a:hover,
-a:focus,
-a:active,
-a:visited {
-  text-decoration: none;
-  color: inherit;
-}
+
 p,
 h1,
 h2,
@@ -97,4 +90,8 @@ h2 {
   margin: 1rem auto;
   text-align: center;
   text-decoration: underline #8a8cf4;
+}
+
+h3 {
+  font-size: 1.25rem;
 }

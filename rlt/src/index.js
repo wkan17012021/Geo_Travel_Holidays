@@ -11,7 +11,6 @@ import "./canyon_tour.css";
 import "./south-france-tours.css";
 import "./bali_tour.css";
 import "./about-site.css"
-import "./scroll-top-btn.css";
 
 
 import App from "./App";
