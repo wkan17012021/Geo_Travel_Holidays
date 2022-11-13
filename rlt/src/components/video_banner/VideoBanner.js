@@ -4,10 +4,10 @@ import PlaceHolder from "../../assets/video_placeholder.png";
 
 const VideoBanner = () => {
   return (
-    <section class="showcase">
-      <h2 class="banner_title">Where will your journey take you?</h2>
+    <section class="showcase relative">
+      <span class="banner_title text-base underline decoration-brand-purple md:text-2xl absolute top-1/2 right-5 bg-slate-200 opacity-80">Where will your journey take you?</span>
       <video
-        class="showcase_video"
+        class="showcase_video w-full"
         alt="man in snowy mountains"
         loop
         muted

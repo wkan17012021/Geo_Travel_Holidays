@@ -8,7 +8,6 @@ import "./tabs.css";
 import "./advice_gen.css";
 import "./two_col_layout.css";
 import "./cardwithimg.css";
-import "./video-hero.css";
 import "./canyon_tour.css";
 import "./south-france-tours.css";
 import "./bali_tour.css";
