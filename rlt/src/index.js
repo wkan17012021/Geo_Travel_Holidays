@@ -3,13 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./sidebar.css";
 import "./flex_panel.css";
-import "./advice_gen.css";
 import "./cardwithimg.css";
 import "./canyon_tour.css";
 import "./south-france-tours.css";
 import "./bali_tour.css";
-import "./about-site.css"
-
+import "./about-site.css";
 
 import App from "./App";
 

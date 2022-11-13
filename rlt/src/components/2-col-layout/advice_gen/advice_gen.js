@@ -11,7 +11,6 @@ const AdviceGen = () => {
   const quoteBtn = document.getElementById("quote-generator");
   // attach event listener to fire API fetch, onto dice button
 
-
   // set empty strings for the inner text properties to auto-populate when the data is obtained
 
   const getRandQuote = async () => {
@@ -34,8 +33,8 @@ const AdviceGen = () => {
     }
   };
   return (
-    <section className="advice_container md:w-10/12 md:my-4 md:mx-auto">
-      <div className="advice-num-wrapper">
+    <section className="advice-container flex flex-col justify-center items-center md:w-10/12 md:my-4 md:mx-auto">
+      <div className="advice-num-wrapper my-4 text-center">
         <h2 className="title">
           Here are some of our traveller's favourite quotes!
         </h2>
@@ -43,17 +42,27 @@ const AdviceGen = () => {
           Quote #<span id="advice-num">117</span>
         </h2>
       </div>
-      <blockquote className="quote-wrapper">
+      <blockquote className="quote-wrapper italic mb-4">
         "It is easy to sit up and take notice, what's difficult is getting up
         and taking action."
       </blockquote>
       <picture>
         <source media="(max-width:375px)" srcSet={mobileDiv} />
         <source media="(min-width:376px)" srcSet={desktopDiv} />
-        <img src="./images/pattern-divider-mobile.svg" alt="pause icon" loading="lazy"/>
+        <img
+          src="./images/pattern-divider-mobile.svg"
+          alt="pause icon"
+          loading="lazy"
+          className="px-4 max-w-full h-auto"
+        />
       </picture>
-      <button onClick={getRandQuote} type="button" id="quote-generator" className="quote-generator">
-        <img src={dice} alt="dice icon" className="dice-icon" loading="lazy"/>
+      <button
+        onClick={getRandQuote}
+        type="button"
+        id="quote-generator"
+        className="quote-generator bg-green-300 rounded-full w-8 h-8 relative top-7 hover:scale-110 hover:duration-200 hover:shadow-xl hover:shadow-lime-200 cursor-pointer"
+      >
+        <img src={dice} alt="dice icon" className="dice-icon m-auto" loading="lazy" />
       </button>
     </section>
   );
