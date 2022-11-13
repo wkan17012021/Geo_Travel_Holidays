@@ -31,10 +31,10 @@ const baliInfo = [
 
 export default function BaliTour() {
   return (
-    <div className="bali_main_container">
-      <div className="bali_inner_wrapper">
+    <div className="bali-main-container">
+      <div className="bali-inner-wrapper my-0 mx-auto py-4 px-8">
         <div>
-          <div className="intro_wrapper">
+          <div className="intro-wrapper my-6 mx-auto lg:max-w-fit lg:my-6">
             <h2>Bali Tour</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, nulla nostrum ut dolorem, omnis, temporibus nisi beatae vitae voluptatem accusantium consequatur non accusamus adipisci repellendus? Nesciunt aperiam maxime consequatur fugit?
@@ -42,19 +42,19 @@ export default function BaliTour() {
           </div>
           <ul
             role="list"
-            className="list_items"
+            className="list-items my-4 mx-8 grid md:grid-cols-2 gap-y-4 md:gap-x-8 lg:grid-cols-3 lg:gap-x-12"
           >
             {baliInfo.map((location) => (
               <li key={location.name}>
                 <div>
                   <div>
                     <img
-                      className="list_item_img"
+                      className="list_item_img rounded-lg object-cover shadow-xl"
                       src={location.imageUrl}
                       alt={location.imageAlt}
                     />
                   </div>
-                  <div className="list_item_details">
+                  <div className="list_item_detail mt-4">
                     <div>
                       <h3>{location.name}</h3>
                       <p>{location.subject}</p>
