@@ -1,3 +1,5 @@
+/* kept this stylesheet as Tailwind requires plugin to convert grid areas
+*/
 .usa_grid_container {
   max-width: 1440px;
   display: grid;

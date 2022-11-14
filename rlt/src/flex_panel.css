@@ -1,3 +1,6 @@
+/* 
+// keeping this as native css as this component was originally from Wes Bos 30 day JS course.
+*/
 .panels {
   max-width: 1440px;
   margin: 8rem auto 0;
@@ -29,23 +32,18 @@
 
 .panel1 {
   background-image: url("/src/assets/flex_panel_photos/Rock-cavern-hk_1400x1140.JPG");
-  /* background-image: url(https://images.unsplash.com/photo-1563995071052-a87f1c1a4afd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80); */
 }
 .panel2 {
   background-image: url("/src/assets/flex_panel_photos/Bryce-canyon_1400x1030.JPG");
-  /* background-image: url(https://images.unsplash.com/photo-1562237553-fd52cb2067b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80); */
 }
 .panel3 {
   background-image: url("/src/assets/flex_panel_photos/Artists-point_800x960.JPG");
-  /* background-image: url(https://images.unsplash.com/photo-1512436279068-411b79de5d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80); */
 }
 .panel4 {
   background-image: url("/src/assets/flex_panel_photos/Batuur_sunrise_edited.jpg");
-  /* background-image: url(https://images.unsplash.com/photo-1653505185603-042138866f4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); */
 }
 .panel5 {
   background-image: url("/src/assets/flex_panel_photos/Skogafoss_800x1070.jpg");
-  /* background-image: url(https://images.unsplash.com/photo-1589223051446-09d09d8f0107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80); */
 }
 
 /* Flex Items */

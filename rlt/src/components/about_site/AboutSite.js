@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutSite = () => {
   return (
-    <section className="about_site_container" id="about_site">
+    <section className="about_site_container scroll-mt-40" id="about_site">
       <h2>About the Site</h2>
       <div className="about_site_content">
         <h3>What is the History / Inspiration?</h3>

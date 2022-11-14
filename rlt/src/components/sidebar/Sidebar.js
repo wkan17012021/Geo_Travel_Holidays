@@ -2,16 +2,16 @@ import React from "react";
 import { slide as Menu } from "react-burger-menu";
 // https://www.digitalocean.com/community/tutorials/react-react-burger-menu-sidebar
 
-export default (props) => {
+export default () => {
   return (
     <Menu className="sidebar_menu">
-      <a className="menu-item" href="#panels" target="_blank">
+      <a className="menu-item" href="#panels">
         Home
       </a>
-      <a className="menu-item" href="" target="_blank">
+      <a className="menu-item" href="#destinations">
         Destinations
       </a>
-      <a className="menu-item" href="" target="_blank">
+      <a className="menu-item" href="#about_site">
         About the Site
       </a>
       <img

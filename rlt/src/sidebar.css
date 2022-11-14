@@ -1,3 +1,4 @@
+/* Keep this as native css as part of react ui library*/
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -14,12 +15,12 @@
 
 /* Color/shape of burger icon bars on hover */
 .bm-burger-bars-hover {
-  background: #8A8CF4;
+  background: #8a8cf4;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: black;
+  background: #8a8cf4;
 }
 
 .bm-cross-button {
@@ -51,7 +52,7 @@
   flex-direction: column;
   gap: 10px;
   background: whitesmoke;
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* Subdivide styling for each list item type */
@@ -61,7 +62,6 @@
   text-align: left;
   text-decoration: none;
   transition: color 0.2s;
-  width: 30%;
 }
 
 .bm-item-list img {
@@ -79,15 +79,15 @@
   background: rgba(0, 0, 0, 0.75);
 }
 
-@media (min-width: 650px) {
-    .bm-burger-button {
-      display: none;
-    }
+@media (min-width: 768px) {
+  .bm-burger-button {
+    display: none;
   }
+}
 
-  @media (max-width: 650px) {
-    .bm-burger-button {
-      right: 45%;
-      top: 1%;
-    }
-  }  
+@media (max-width: 768px) {
+  .bm-burger-button {
+    right: 45%;
+    top: 1%;
+  }
+}
