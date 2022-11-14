@@ -1,16 +1,16 @@
 .usa_grid_container {
+  max-width: 1440px;
   display: grid;
   grid-template-columns: 1fr 0.5fr repeat(2, 1fr) 0.5fr 1fr;
   grid-template-rows: 1fr 0.5fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  margin: 1rem;
+  gap: 10px;
+  margin: 1rem auto;
 }
 .img_1_wrapper {
   grid-area: 2 / 4 / 5 / 6;
 }
 .img_2_wrapper {
-  grid-area: 1 / 2 / 2  / 4;
+  grid-area: 1 / 2 / 2 / 4;
 }
 .img_3_wrapper {
   grid-area: 2 / 1 / 5 / 2;
@@ -30,7 +30,6 @@
 .usa_grid_container div > img {
   border-radius: 8px;
 }
-
 
 @media only screen and (max-width: 1000px) {
   .usa_grid_container {
