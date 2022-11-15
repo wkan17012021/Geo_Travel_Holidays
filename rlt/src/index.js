@@ -4,7 +4,6 @@ import "./index.css";
 import "./sidebar.css";
 import "./flex_panel.css";
 import "./canyon_tour.css";
-import "./about-site.css";
 
 import App from "./App";
 
