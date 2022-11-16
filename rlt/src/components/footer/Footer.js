@@ -19,7 +19,7 @@ export default function Footer() {
               <img
                 src="https://img.icons8.com/color/344/facebook-new.png"
                 alt="facebook icon"
-                className="social_media_icon w-7 h-auto inline"
+                className="social_media_icon w-10 h-auto inline"
                 loading="lazy"
               />
             </div>
@@ -27,7 +27,7 @@ export default function Footer() {
               <img
                 src="https://img.icons8.com/fluency/344/instagram-new.png"
                 alt="instagram icon"
-                className="social_media_icon w-7 h-auto inline"
+                className="social_media_icon w-10 h-auto inline"
                 loading="lazy"
               />
             </div>
@@ -35,7 +35,7 @@ export default function Footer() {
               <img
                 src="https://img.icons8.com/fluency/344/twitter.png"
                 alt="twitter icon"
-                className="social_media_icon w-7 h-auto inline"
+                className="social_media_icon w-10 h-auto inline"
                 loading="lazy"
               />
             </div>
