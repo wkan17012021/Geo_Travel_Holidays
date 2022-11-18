@@ -51,7 +51,6 @@ const SouthFranceTours = () => {
           </div>
           <div className="bio_section lg:col-span-2">
             <ul
-              role="list"
               className="mt-8 border-t border-gray-400 lg:grid lg:grid-cols-2 lg:gap-y-4 lg:mt-0"
             >
               {locationData.map((location) => (

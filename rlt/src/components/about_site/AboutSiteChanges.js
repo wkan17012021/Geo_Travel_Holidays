@@ -175,6 +175,7 @@ export default function AboutSiteChanges() {
                     className="underline underline-offset-4 decoration-brand-purple decoration-2"
                     href="https://tailwindui.com/components"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Tailwind UI Component Library
                   </a>

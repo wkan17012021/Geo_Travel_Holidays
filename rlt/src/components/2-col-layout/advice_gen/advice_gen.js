@@ -8,7 +8,6 @@ const AdviceGen = () => {
   const adviceSlipUrl = "https://api.adviceslip.com/advice";
   const adviceNumber = document.getElementById("advice-num");
   const randQuote = document.querySelector(".quote-wrapper");
-  const quoteBtn = document.getElementById("quote-generator");
   // attach event listener to fire API fetch, onto dice button
 
   // set empty strings for the inner text properties to auto-populate when the data is obtained

@@ -41,7 +41,6 @@ export default function BaliTour() {
             </p>
           </div>
           <ul
-            role="list"
             className="list-items my-4 mx-8 grid md:grid-cols-2 gap-y-4 md:gap-x-8 lg:grid-cols-3 lg:gap-x-12"
           >
             {baliInfo.map((location) => (

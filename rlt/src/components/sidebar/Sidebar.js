@@ -2,7 +2,7 @@ import React from "react";
 import { slide as Menu } from "react-burger-menu";
 // https://www.digitalocean.com/community/tutorials/react-react-burger-menu-sidebar
 
-export default () => {
+export default function Sidebar() {
   return (
     <Menu className="sidebar_menu">
       <a className="menu-item" href="#panels">
