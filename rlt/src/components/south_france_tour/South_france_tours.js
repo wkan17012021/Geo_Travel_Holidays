@@ -50,14 +50,17 @@ const SouthFranceTours = () => {
             </p>
           </div>
           <div className="bio_section lg:col-span-2">
-            <ul role="list" className="mt-8 border-t border-gray-400 lg:grid lg:grid-cols-2 lg:gap-y-4 lg:mt-0">
+            <ul
+              role="list"
+              className="mt-8 border-t border-gray-400 lg:grid lg:grid-cols-2 lg:gap-y-4 lg:mt-0"
+            >
               {locationData.map((location) => (
                 <li
                   key={location.id}
                   className="location-list-item py-4 px-0 my-0 mx-auto lg:max-w-full lg:m-0"
                 >
                   <div className="location_list_item_grid_wrapper px-4 t-8 md:grid md:grid-cols-2 md:gap-4 lg:grid lg:grid-cols-3 lg:place-items-start lg:gap-4 ">
-                    <div className="md:col-start-1 lg:col-start-1 lg:col-end-3">
+                    <div className="md:col-start-1 lg:col-start-1 lg:col-end-4">
                       <img
                         src={location.imageUrl}
                         alt={location.imageAlt}

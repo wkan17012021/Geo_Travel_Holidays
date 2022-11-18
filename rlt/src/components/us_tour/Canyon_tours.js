@@ -4,7 +4,7 @@ import Img2 from "../../assets/usa_canyon_photos/grand_canyon_754x611.JPG";
 import Img3 from "../../assets/usa_canyon_photos/antelope_canyon_trail_612x816(2).jpg";
 import Img4 from "../../assets/usa_canyon_photos/antelope_canyon_2_500x332.JPG";
 import Img5 from "../../assets/usa_canyon_photos/antelope_canyon_612x816(3).JPG";
-import Img6 from "../../assets/usa_canyon_photos/grand_canyon_overcast_754x611.jpg";
+import Img6 from "../../assets/usa_canyon_photos/geol_x_section_grand_canyon.jpeg";
 
 const CanyonTours = () => {
   return (
