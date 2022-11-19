@@ -5,7 +5,6 @@ const JsonPopTours = () => {
   return (
     <div className="card_container max-w-7xl my-12 mx-auto flex flex-col gap-2 md:flex-row md:flex-wrap">
       {Data.tours.map((record) => {
-        // console.log(record);
         return (
           <div
             className="card_item_wrapper max-w-sm border border-black rounded-2xl my-0 mx-auto shadow-xl hover:transition ease-in-out hover:-translate-y-1 hover:scale-100 duration-200 hover:outline-brand-purple hover:outline-offset-2 focus:outline-none focus:ring-2 focus:ring-brand-purple focus:ring-offset-2 hover:outline "

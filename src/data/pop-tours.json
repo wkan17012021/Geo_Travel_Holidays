@@ -35,7 +35,7 @@
     },
     {
         "id": 4,
-        "imgPath": "/tour_photos/Mount_batuur_morning-1200x590.jpg",
+        "imgPath": "https://images.pexels.com/photos/3762284/pexels-photo-3762284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "alt": "Mount Batuur, Bali, Indonesia",
         "price": 600,
         "rating": "8 / 10",
