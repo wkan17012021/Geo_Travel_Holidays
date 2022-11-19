@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.116711c5.css",
+    "main.js": "/static/js/main.c24cc033.js",
+    "static/media/mixkit-hiker-with-a-backpack-watching-the-winter-mountains-36986-medium.mp4": "/static/media/mixkit-hiker-with-a-backpack-watching-the-winter-mountains-36986-medium.b0c125d7f56ce1719bb4.mp4",
+    "static/media/video_placeholder.png": "/static/media/video_placeholder.fbef3b1dbe2589c7908b.png",
+    "static/media/Bryce-canyon_1400x1030.JPG": "/static/media/Bryce-canyon_1400x1030.9d282ba37d73d15565db.JPG",
+    "static/media/roussillon_crossbedded_hematite_geothite_sands_912x684.jpg": "/static/media/roussillon_crossbedded_hematite_geothite_sands_912x684.f7d6c26af667abffa8f0.jpg",
+    "static/media/bali_fields_1040x780.jpg": "/static/media/bali_fields_1040x780.7802952eac63962e81e4.jpg",
+    "static/media/Artists-point_800x960.JPG": "/static/media/Artists-point_800x960.dd0f0fe698afff4d89a5.JPG",
+    "static/media/Rock-cavern-hk_1400x1140.JPG": "/static/media/Rock-cavern-hk_1400x1140.8c0050046e25ef0a3075.JPG",
+    "static/media/roussillon_quarry_red route_912x684.jpg": "/static/media/roussillon_quarry_red route_912x684.e96f80340836e9da3f73.jpg",
+    "static/media/morning_trek_batuur_1040x683.jpg": "/static/media/morning_trek_batuur_1040x683.c010235f12a868706e77.jpg",
+    "static/media/bali_beach_1040x780.jpg": "/static/media/bali_beach_1040x780.1c1c59f369bd37fdd5f4.jpg",
+    "static/media/pont_du_gard_684x912.jpg": "/static/media/pont_du_gard_684x912.f8ee409af85f1a106df6.jpg",
+    "static/media/Skogafoss_800x1070.jpg": "/static/media/Skogafoss_800x1070.2ff950946b1797947896.jpg",
+    "static/media/grand_canyon_754x611.JPG": "/static/media/grand_canyon_754x611.5211d239acb8f2452d87.JPG",
+    "static/media/antelope_canyon_trail_612x816.jpg": "/static/media/antelope_canyon_trail_612x816.e3135367edf1b81ffe5a.jpg",
+    "static/media/antelope_canyon_612x816(3).JPG": "/static/media/antelope_canyon_612x816(3).22617b8d034d8af4e81f.JPG",
+    "static/media/fossil_emblem.jpeg": "/static/media/fossil_emblem.dc1897545adca421e1ba.jpeg",
+    "static/media/Batuur_sunrise_edited.jpg": "/static/media/Batuur_sunrise_edited.271a9228614424837c56.jpg",
+    "static/media/antelope_canyon_trail_612x816(2).jpg": "/static/media/antelope_canyon_trail_612x816(2).4061979550ca9c81b782.jpg",
+    "static/media/geol_x_section_grand_canyon.jpeg": "/static/media/geol_x_section_grand_canyon.be488573b30522428243.jpeg",
+    "static/media/antelope_canyon_2_500x332.JPG": "/static/media/antelope_canyon_2_500x332.bb0568ed759573b73d82.JPG",
+    "index.html": "/index.html",
+    "static/media/icon-dice.svg": "/static/media/icon-dice.08691e4c24c11b5ba564e06b1f6bcbf3.svg",
+    "static/media/pattern-divider-desktop.svg": "/static/media/pattern-divider-desktop.ed9685263f6b47d21c8848f7d8bdd10e.svg",
+    "static/media/pattern-divider-mobile.svg": "/static/media/pattern-divider-mobile.aca38726412164df099c43d4f2fed72e.svg",
+    "main.116711c5.css.map": "/static/css/main.116711c5.css.map",
+    "main.c24cc033.js.map": "/static/js/main.c24cc033.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.116711c5.css",
+    "static/js/main.c24cc033.js"
+  ]
+}
